@@ -17,9 +17,22 @@
 			position: static;
 			width: auto;
 		}
-		a{
-			@include link-colors(#333, #960d20);
-			@include transition(0.3s);
+		a {
+ 			text-decoration:none;
+			color:#333;
+			-webkit-transition:border .25s linear;
+			-moz-transition:border .25s linear;
+			-ms-transition:border .25s linear;
+			transition:border .25s linear;
+			outline:none;
+		}
+
+		a:link,a:visited {
+			border-bottom:1px solid rgba(191,2,34,0);
+		}
+
+		a:hover {
+			border-bottom:1px solid #bf0222;
 		}
 		.date, .tags, .comments{
 			padding-left: 30px;
