@@ -25,7 +25,7 @@ Changes I've made to date are;
 - Installed Scott W. Bradley's [Tweet Tag](https://github.com/scottwb/jekyll-tweet-tag).
 <br>
 ### About Me
-I'm an IT Consultant, self confessed tech geek and when I can be bothered to, an occasional developer in iOS and web technologies.
+I'm an IT Consultant, self confessed tech geek and when I can be bothered to, an occasional developer in iOS and web technologies and can be found [tweeting](http://twitter.com/macjasp) occassionally.
 
 I have a passion for minimalistic, elegant design, I listen to [melancholic / kitchen sink music](http://last.fm/user/macjasp) endlessly, [carry a camera with me everywhere](http://www.flickr.com/photos/-macjasp/) and when the mood suits, I run.
 <br>

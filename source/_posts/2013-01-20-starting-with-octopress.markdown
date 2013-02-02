@@ -7,6 +7,7 @@ categories: [mountain lion, dropbox, octopress]
 ---
 ### a little intro
 I'm an infrequent blogger, I find I can't write routinely and my previous attempts at starting blogs all failed miserably{% fn_ref 1 %}. However there are many personal sites out there that I admire with some great content which always encourages me to try again - so here goes, another attempt starting in 2013. This time due to the platform, workflow and Apps I'm using I feel I may be a little bit more creative.
+
 ### Octopress and my current workflow
 <center>{% img https://dl.dropbox.com/u/22370970/blogimages/octopress.jpg %}</center>
 I like to get my hands dirty, even in my current day job (which is strictly management) I can't get by without some hands on, whether that be coding, diagnosing or generally rolling my sleeves up and getting stuck in, so [Octopress](http://octopress.org/) with its strap line of 'A blogging framework for hackers' got my attention last year and after inspecting closely and reading other people's experiences with it, I decided to give it a go.
