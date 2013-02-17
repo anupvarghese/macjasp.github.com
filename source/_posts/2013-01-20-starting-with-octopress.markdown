@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "starting with Octopress"
+title: "Starting with Octopress"
 date: 2013-01-20 16:33
 comments: true
 categories: [mountain lion, dropbox, octopress]
+description: "My personal experience on getting started with Octopress on Mac OSX, customising themes and using Github Pages & Dropbox"
+keywords: "octopress, Mac OSX, dropbox, github pages, themes, customise, customize, customizing, customising, macbook, ia writer, markdown"
 ---
 ### a little intro
 I'm an infrequent blogger, I find I can't write routinely and my previous attempts at starting blogs all failed miserably{% fn_ref 1 %}. However there are many personal sites out there that I admire with some great content which always encourages me to try again - so here goes, another attempt starting in 2013. This time due to the platform, workflow and Apps I'm using I feel I may be a little bit more creative.

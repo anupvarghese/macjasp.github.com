@@ -4,6 +4,8 @@ title: "Octopress on a Raspberry Pi"
 date: 2013-02-01 11:10
 comments: true
 categories: [octopress, raspberry pi]
+description: "Installing Octopress on a Raspberry Pi and a fix for rvm with openssl"
+keywords: "octopress, raspberry pi, raspian, wheezy, rvm, ssl, openssl, github"
 ---
 <center>{% img https://dl.dropbox.com/u/22370970/blogimages/RaspberryPi.jpg %}</center>
 My Raspberry Pi turned up this week which was greeted with much enthusiasm in my household (only by me, I hasten to add).
