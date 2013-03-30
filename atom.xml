@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[carmo]]></title>
+  <link href="http://carmo.org.uk/atom.xml" rel="self"/>
+  <link href="http://carmo.org.uk/"/>
+  <updated>2013-03-29T08:38:25+00:00</updated>
+  <id>http://carmo.org.uk/</id>
+  <author>
+    <name><![CDATA[carmo.org.uk]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Dynamic DNS Updater for CloudFlare]]></title>
+    <link href="http://carmo.org.uk/CloudFlare-DynamicDNS-Updater-Raspberry-Pi/"/>
+    <updated>2013-03-24T19:42:00+00:00</updated>
+    <id>http://carmo.org.uk/CloudFlare-DynamicDNS-Updater-Raspberry-Pi</id>
+    <content type="html"><![CDATA[<p>Over the weekend I decided to move hosting of this blog from Github Pages to the Raspberry Pi that resides in the bedroom of my home<sup id='fnref:1'><a href='#fn:1' rel='footnote'>1</a></sup>. The site has always been protected by the impressive <a href="http://www.cloudflare.com/">CloudFlare</a> but that protection is even more critical now I&#8217;ve made that change, it does however present a particular challenge around dynamically assigned IP addresses that ISP&#8217;s dish out on consumer broadband and fibre networks.</p>
+
+<!-- more -->
+
+
+<center><img src="https://dl.dropbox.com/u/22370970/blogimages/cloudflare.png"></center>
+
+
+<p>CloudFlare needs to be kept informed of the currently assigned IP address that the Pi is sitting behind and although they do offer an API and <a href="http://robertianhawdon.me.uk/2012/07/17/fixing-ddclient-to-work-with-cloudflare/">a dyndns client</a>, it&#8217;s a little troublesome to get working so I decided the best approach would be a simple bash script.</p>
+
+<div><script src='https://gist.github.com/5252855.js'></script>
+<noscript><pre><code></code></pre></noscript></div>
+
+
+<p>The script runs perfectly on a Raspberry Pi and all it needs is a simple alteration to include your own domain, CloudFlare Username and API key, then add it to a cron job and it will keep your CloudFlare DNS up to date with the currently assigned dynamic IP at an interval of your choosing<sup id='fnref:2'><a href='#fn:2' rel='footnote'>2</a></sup>.</p>
+
+<p>Any support, issues, comments or feedback are always welcome by getting in touch on <a href="http://twitter.com/macjasp">Twitter</a>.</p>
+
+<br>
+
+
+<br>
+
+
+<div class="footnotes">
+    <ol>
+        <li id='fn:1'><p>The static pages of this Octopress blog are being served by <a href="http://nginx.org/en/">Nginx</a> and performance is admirable on the Raspberry Pi.
+<a href='#fnref:1' rev='footnote'>↩</a></p>
+</li><li id='fn:2'><p>I currently have mine set to update CloudFlare every 55 minutes.
+<a href='#fnref:2' rev='footnote'>↩</a></p>
+</li>
+    </ol>
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[An Octopress Flickr Set Plugin]]></title>
+    <link href="http://carmo.org.uk/an-octopress-flickr-set-plugin/"/>
+    <updated>2013-02-27T16:27:00+00:00</updated>
+    <id>http://carmo.org.uk/an-octopress-flickr-set-plugin</id>
+    <content type="html"><![CDATA[<p>While I was in the process of setting up and theming this site I envisaged writing a post that documented the migration of my Instagram photos to Flickr<sup id='fnref:1'><a href='#fn:1' rel='footnote'>1</a></sup>, the idea being that I would then embed the newly migrated Flickr photo set in said post on this Octopress powered blog.</p>
+
+<!-- more -->
+
+
+<p>I wasn&#8217;t entirely sure whether I&#8217;d have to write my own plugin to do so or if I&#8217;d be lucky enough to find one already out there and I was thankfully saved the work after coming across a <a href="https://github.com/tsmango/jekyll_flickr_set_tag">great little Octopress plugin by tsmango</a> that did almost everything I was after, however I felt it could be improved upon so decided to fork the project and make some changes of my own.</p>
+
+<ul>
+<li><p>Firstly it returned all photos in a set, the Flickr API can return up to 500 photos at a time and that wouldn&#8217;t display too well in a blog post, so I&#8217;ve added a new parameter which allows you to configure the amount of photos that are returned by changing the newly created &#8216;per_page:&#8217; setting in the _config.yml to a number of your choice.</p></li>
+<li><p>Secondly, clicking a photo thumbnail would take you directly to the source image while I personally thought it more sensible if it took you to that individual photos full Flickr page instead, another parameter is required for this called &#8216;user:&#8217; in which you enter your own flickr userID.</p></li>
+</ul>
+
+
+<p>Below is the result of those changes and the amended plugin is available to install <a href="https://github.com/macjasp/jekyll_flickr_set_tag">from my Github repository</a>.</p>
+
+<center><p class="gallery"><a href="http://www.flickr.com/photos/-macjasp/6792807178/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7047/6792807178_8a27af2635_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6792808304/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7209/6792808304_9d03826687_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6406125177/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7148/6406125177_d44ce6a395_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6938918399/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7188/6938918399_421266f909_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6823328091/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7148/6823328091_e20e644fb4_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7257837422/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7228/7257837422_4784fe499f_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7874317828/in/photostream" target ="_blank">  <img src="http://farm9.staticflickr.com/8433/7874317828_bd4d873b4d_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6406126561/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7142/6406126561_72a45959cc_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6823340369/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7169/6823340369_3567dd39c1_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6406127393/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7035/6406127393_d62a2d96a3_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/5188128406/in/photostream" target ="_blank">  <img src="http://farm5.staticflickr.com/4084/5188128406_96c048e35e_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6058828631/in/photostream" target ="_blank">  <img src="http://farm7.staticflickr.com/6073/6058828631_7025fd7177_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6823331845/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7011/6823331845_8e9fede2e9_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7406638072/in/photostream" target ="_blank">  <img src="http://farm9.staticflickr.com/8026/7406638072_de04ef8431_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7412633628/in/photostream" target ="_blank">  <img src="http://farm6.staticflickr.com/5342/7412633628_b2cfb403b5_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/5661270209/in/photostream" target ="_blank">  <img src="http://farm6.staticflickr.com/5222/5661270209_c1b01c80fb_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/5327571614/in/photostream" target ="_blank">  <img src="http://farm6.staticflickr.com/5202/5327571614_ebc98dde16_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7409111074/in/photostream" target ="_blank">  <img src="http://farm9.staticflickr.com/8007/7409111074_b6d5f5c57c_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7409103142/in/photostream" target ="_blank">  <img src="http://farm6.staticflickr.com/5159/7409103142_25c8c4d67b_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7404057664/in/photostream" target ="_blank">  <img src="http://farm6.staticflickr.com/5280/7404057664_c363eba51a_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7404054108/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7213/7404054108_f8f86d9863_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7404052072/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7099/7404052072_8e6c27045e_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6358623881/in/photostream" target ="_blank">  <img src="http://farm7.staticflickr.com/6045/6358623881_94f7ff693a_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/5710867643/in/photostream" target ="_blank">  <img src="http://farm4.staticflickr.com/3457/5710867643_6f9a988bcd_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7146347189/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7040/7146347189_b4f075c7f8_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7146345069/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7277/7146345069_a35c61c577_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7670716712/in/photostream" target ="_blank">  <img src="http://farm9.staticflickr.com/8421/7670716712_d9dfb8126d_s.jpg" rel=""/></a></p></center>
+
+
+<br>
+
+
+<br>
+
+
+<div class="footnotes">
+    <ol>
+        <li id='fn:1'><p>I scrapped this idea for a post but check out <a href="http://flickstagram.org/">Flickstagram</a> if you&#8217;re planning on doing something like this yourself.
+<a href='#fnref:1' rev='footnote'>↩</a></p>
+</li>
+    </ol>
+</div>
+
+]]></content>
+  </entry>
+  
+</feed>

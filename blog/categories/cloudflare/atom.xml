@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: cloudflare | carmo]]></title>
+  <link href="http://carmo.org.uk/blog/categories/cloudflare/atom.xml" rel="self"/>
+  <link href="http://carmo.org.uk/"/>
+  <updated>2013-03-29T08:38:25+00:00</updated>
+  <id>http://carmo.org.uk/</id>
+  <author>
+    <name><![CDATA[carmo.org.uk]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Dynamic DNS Updater for CloudFlare]]></title>
+    <link href="http://carmo.org.uk/CloudFlare-DynamicDNS-Updater-Raspberry-Pi/"/>
+    <updated>2013-03-24T19:42:00+00:00</updated>
+    <id>http://carmo.org.uk/CloudFlare-DynamicDNS-Updater-Raspberry-Pi</id>
+    <content type="html"><![CDATA[<p>Over the weekend I decided to move hosting of this blog from Github Pages to the Raspberry Pi that resides in the bedroom of my home<sup id='fnref:1'><a href='#fn:1' rel='footnote'>1</a></sup>. The site has always been protected by the impressive <a href="http://www.cloudflare.com/">CloudFlare</a> but that protection is even more critical now I've made that change, it does however present a particular challenge around dynamically assigned IP addresses that ISP's dish out on consumer broadband and fibre networks.</p>
+
+<!-- more -->
+
+
+<center><img src="https://dl.dropbox.com/u/22370970/blogimages/cloudflare.png"></center>
+
+
+<p>CloudFlare needs to be kept informed of the currently assigned IP address that the Pi is sitting behind and although they do offer an API and <a href="http://robertianhawdon.me.uk/2012/07/17/fixing-ddclient-to-work-with-cloudflare/">a dyndns client</a>, it's a little troublesome to get working so I decided the best approach would be a simple bash script.</p>
+
+<p><div><script src='https://gist.github.com/5252855.js'></script>
+<noscript><pre><code></code></pre></noscript></div>
+</p>
+
+<p>The script runs perfectly on a Raspberry Pi and all it needs is a simple alteration to include your own domain, CloudFlare Username and API key, then add it to a cron job and it will keep your CloudFlare DNS up to date with the currently assigned dynamic IP at an interval of your choosing<sup id='fnref:2'><a href='#fn:2' rel='footnote'>2</a></sup>.</p>
+
+<p>Any support, issues, comments or feedback are always welcome by getting in touch on <a href="http://twitter.com/macjasp">Twitter</a>.</p>
+
+<br>
+
+
+<br>
+
+
+<p><div class="footnotes">
+	<ol>
+		<li id='fn:1'><p>The static pages of this Octopress blog are being served by <a href="http://nginx.org/en/">Nginx</a> and performance is admirable on the Raspberry Pi.
+<a href='#fnref:1' rev='footnote'>↩</a></p>
+</li><li id='fn:2'><p>I currently have mine set to update CloudFlare every 55 minutes.
+<a href='#fnref:2' rev='footnote'>↩</a></p>
+</li>
+	</ol>
+</div>
+</p>
+]]></content>
+  </entry>
+  
+</feed>
