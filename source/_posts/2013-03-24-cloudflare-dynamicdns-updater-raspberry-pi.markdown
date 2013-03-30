@@ -6,6 +6,7 @@ comments: false
 categories: [cloudflare, dyndns, development]
 description: "A bash script to automatically update CloudFlare with a dynamically assigned IP address"
 keywords: "raspberry pi, cloudflare, dyndns, dynamic dns, dns, bash, script, network, static ip, dynamic ip, ip"
+alias: /CloudFlare-DynamicDNS-Updater-Raspberry-Pi/index.html
 ---
 Over the weekend I decided to move hosting of this blog from Github Pages to the Raspberry Pi that resides in the bedroom of my home{% fn_ref 1 %}. The site has always been protected by the impressive [CloudFlare](http://www.cloudflare.com/) but that protection is even more critical now I've made that change, it does however present a particular challenge around dynamically assigned IP addresses that ISP's dish out on consumer broadband and fibre networks.
 <!-- more -->
