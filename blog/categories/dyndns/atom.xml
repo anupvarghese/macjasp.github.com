@@ -4,7 +4,7 @@
   <title><![CDATA[Category: dyndns | carmo]]></title>
   <link href="http://macjasp.github.com/blog/categories/dyndns/atom.xml" rel="self"/>
   <link href="http://macjasp.github.com/"/>
-  <updated>2013-03-30T17:47:46+00:00</updated>
+  <updated>2013-03-30T18:15:04+00:00</updated>
   <id>http://macjasp.github.com/</id>
   <author>
     <name><![CDATA[carmo.org.uk]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Dynamic DNS Updater for CloudFlare]]></title>
-    <link href="http://macjasp.github.com/CloudFlare-DynamicDNS-Updater-Raspberry-Pi/"/>
+    <link href="http://macjasp.github.com/cloudflare-dynamicdns-updater-raspberry-pi/"/>
     <updated>2013-03-24T19:42:00+00:00</updated>
-    <id>http://macjasp.github.com/CloudFlare-DynamicDNS-Updater-Raspberry-Pi</id>
+    <id>http://macjasp.github.com/cloudflare-dynamicdns-updater-raspberry-pi</id>
     <content type="html"><![CDATA[<p>Over the weekend I decided to move hosting of this blog from Github Pages to the Raspberry Pi that resides in the bedroom of my home<sup id='fnref:1'><a href='#fn:1' rel='footnote'>1</a></sup>. The site has always been protected by the impressive <a href="http://www.cloudflare.com/">CloudFlare</a> but that protection is even more critical now I've made that change, it does however present a particular challenge around dynamically assigned IP addresses that ISP's dish out on consumer broadband and fibre networks.</p>
 
 <!-- more -->
@@ -44,7 +44,7 @@
 
 <p><div class="footnotes">
 	<ol>
-		<li id='fn:1'><p>The static pages of this Octopress blog are being served by <a href="http://nginx.org/en/">Nginx</a> and performance is admirable on the Raspberry Pi.
+		<li id='fn:1'><p><del>The static pages of this Octopress blog are being served by <a href="http://nginx.org/en/">Nginx</a> and performance is admirable on the Raspberry Pi.</del> I had to change hosting back to Github Pages after some weird sleeping issues the Pi was experiencing.
 <a href='#fnref:1' rev='footnote'>↩</a></p>
 </li><li id='fn:2'><p>I currently have mine set to update CloudFlare every 55 minutes.
 <a href='#fnref:2' rev='footnote'>↩</a></p>
