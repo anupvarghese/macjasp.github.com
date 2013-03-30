@@ -1,39 +1,39 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://carmo.org.uk/an-octopress-flickr-set-plugin/</loc>
+        <loc>http://macjasp.github.com/an-octopress-flickr-set-plugin/</loc>
         <lastmod>2013-03-11T22:31:10+00:00</lastmod>
     </url>
     <url>
-        <loc>http://carmo.org.uk/CloudFlare-DynamicDNS-Updater-Raspberry-Pi/</loc>
+        <loc>http://macjasp.github.com/CloudFlare-DynamicDNS-Updater-Raspberry-Pi/</loc>
         <lastmod>2013-03-29T08:34:46+00:00</lastmod>
     </url>
     <url>
-        <loc>http://carmo.org.uk/blog/archives/</loc>
+        <loc>http://macjasp.github.com/blog/archives/</loc>
         <lastmod>2013-03-29T08:34:46+00:00</lastmod>
     </url>
     <url>
-        <loc>http://carmo.org.uk/blog/</loc>
+        <loc>http://macjasp.github.com/blog/</loc>
         <lastmod>2013-03-29T08:34:46+00:00</lastmod>
     </url>
     <url>
-        <loc>http://carmo.org.uk/portfolio/</loc>
+        <loc>http://macjasp.github.com/portfolio/</loc>
         <lastmod>2013-03-29T08:34:46+00:00</lastmod>
     </url>
     <url>
-        <loc>http://carmo.org.uk/about/</loc>
-        <lastmod>2013-03-29T08:37:29+00:00</lastmod>
+        <loc>http://macjasp.github.com/about/</loc>
+        <lastmod>2013-03-30T17:46:54+00:00</lastmod>
     </url>
     <url>
-        <loc>http://carmo.org.uk/archives/</loc>
+        <loc>http://macjasp.github.com/archives/</loc>
         <lastmod>2013-03-29T08:34:46+00:00</lastmod>
     </url>
     <url>
-        <loc>http://carmo.org.uk/</loc>
+        <loc>http://macjasp.github.com/</loc>
         <lastmod>2013-03-29T08:34:46+00:00</lastmod>
     </url>
     <url>
-        <loc>http://carmo.org.uk/robots.txt</loc>
+        <loc>http://macjasp.github.com/robots.txt</loc>
         <lastmod>2013-01-29T12:55:07+00:00</lastmod>
     </url>
 </urlset>

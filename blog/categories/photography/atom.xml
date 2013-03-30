@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: photography | carmo]]></title>
-  <link href="http://carmo.org.uk/blog/categories/photography/atom.xml" rel="self"/>
-  <link href="http://carmo.org.uk/"/>
-  <updated>2013-03-29T08:38:25+00:00</updated>
-  <id>http://carmo.org.uk/</id>
+  <link href="http://macjasp.github.com/blog/categories/photography/atom.xml" rel="self"/>
+  <link href="http://macjasp.github.com/"/>
+  <updated>2013-03-30T17:47:46+00:00</updated>
+  <id>http://macjasp.github.com/</id>
   <author>
     <name><![CDATA[carmo.org.uk]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[An Octopress Flickr Set Plugin]]></title>
-    <link href="http://carmo.org.uk/an-octopress-flickr-set-plugin/"/>
+    <link href="http://macjasp.github.com/an-octopress-flickr-set-plugin/"/>
     <updated>2013-02-27T16:27:00+00:00</updated>
-    <id>http://carmo.org.uk/an-octopress-flickr-set-plugin</id>
+    <id>http://macjasp.github.com/an-octopress-flickr-set-plugin</id>
     <content type="html"><![CDATA[<p>While I was in the process of setting up and theming this site I envisaged writing a post that documented the migration of my Instagram photos to Flickr<sup id='fnref:1'><a href='#fn:1' rel='footnote'>1</a></sup>, the idea being that I would then embed the newly migrated Flickr photo set in said post on this Octopress powered blog.</p>
 
 <!-- more -->
