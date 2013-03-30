@@ -16,6 +16,7 @@ article{
 		margin-bottom: 20px;
 		margin-left:0px;
 		text-align:left;
+		border-bottom: 0px;
 		a{
 			color: #333;
 		}
@@ -45,6 +46,7 @@ article{
 			margin-top: 16px;
 			padding-left: 30px;
 			position: relative;
+			border-bottom: 0px;
 			&:before{
 				content: "\f061";
 				font: 1.3em $font-icon;
@@ -52,6 +54,7 @@ article{
 				position: absolute;
 				left: 0;
 			}
+			
 		}
 		p, blockquote, ul, ol, dl, table, iframe, h1, h2, h3, h4, h5, h6, .video-container{
 			margin-top: 1.5em;
@@ -96,6 +99,7 @@ article{
 			-webkit-box-shadow:0 0 15px rgba(0,0,0,0.35);
 			-moz-box-shadow:0 0 15px rgba(0,0,0,0.35);
 			box-shadow:0 0 15px rgba(0,0,0,0.35);
+			border-bottom: 0px;
 		}
 		blockquote{
 			background: $color-gray04;
@@ -161,6 +165,9 @@ article{
 }
 .share{
 	padding: 15px 0;
-	padding-left:195px;
+	padding-left:260px;
+	@media screen and (max-width: 620px) {
+	padding-left: 0px;
+	}
 	@include border-shadow();
 }

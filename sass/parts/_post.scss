@@ -1,9 +1,12 @@
 .post{
 	 .entry-content{
-		margin-left: 200px;
+		margin-left: 260px;
 		@media screen and (max-width: 620px){
-			margin-left: 0;
+			margin-left: 240px;
 		}
+		@media screen and (max-width: 480px) {
+			margin-left: 0px;
+			}
 	}
 	.meta{
 		position: absolute;

@@ -19,6 +19,8 @@
 #     a_target:      '_blank'
 #     image_rel:     ''
 #     image_size:    's'
+#     per_page:      '500'
+#	  user:			 ''
 #     api_key:       ''
 #
 # By default, thumbnails are linked to their corresponding Flickr page.
@@ -53,15 +55,16 @@ module Jekyll
       @config['a_target']      ||= '_blank'
       @config['image_rel']     ||= ''
       @config['image_size']    ||= 's'
-      @config['api_key']       ||= ''
       @config['per_page']	   ||= '500'
+      @config['user']          ||= ''
+      @config['api_key']       ||= ''
     end
 
     def render(context)
       html = "<#{@config['gallery_tag']} class=\"#{@config['gallery_class']}\">"
 
       photos.each do |photo|
-        html << "<a href=\"#{photo.url(@config['a_href'])}\" target=\"#{@config['a_target']}\">"
+        html << "<a href=\"#{photo.full_url}\" target =\"#{@config['a_target']}\">"
         html << "  <img src=\"#{photo.thumbnail_url}\" rel=\"#{@config['image_rel']}\"/>"
         html << "</a>"
       end
@@ -75,7 +78,7 @@ module Jekyll
       @photos = Array.new
 
       JSON.parse(json)['photoset']['photo'].each do |item|
-        @photos << FlickrPhoto.new(item['title'], item['id'], item['secret'], item['server'], item['farm'], @config['image_size'])
+        @photos << FlickrPhoto.new(item['title'], item['id'], item['secret'], item['server'], item['farm'], @config['user'], @config['image_size'])
       end
 
       @photos.sort
@@ -90,9 +93,10 @@ module Jekyll
 
   class FlickrPhoto
 
-    def initialize(title, id, secret, server, farm, thumbnail_size)
+    def initialize(title, id, secret, server, farm, user, thumbnail_size)
       @title          = title
       @url            = "http://farm#{farm}.staticflickr.com/#{server}/#{id}_#{secret}.jpg"
+      @full_url            = "http://www.flickr.com/photos/#{user}/#{id}/in/photostream"
       @thumbnail_url  = url.gsub(/\.jpg/i, "_#{thumbnail_size}.jpg")
       @thumbnail_size = thumbnail_size
     end
@@ -103,6 +107,10 @@ module Jekyll
 
     def url(size_override = nil)
       return (size_override ? @thumbnail_url.gsub(/_#{@thumbnail_size}.jpg/i, "_#{size_override}.jpg") : @url)
+    end
+      
+    def full_url
+      return @full_url
     end
 
     def thumbnail_url
