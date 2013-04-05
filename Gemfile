@@ -15,4 +15,9 @@ group :development do
   gem 'liquid', '~> 2.3.0'
 end
 
+gem 'flickraw'
+gem 'builder', '> 2.0.0'
+gem 'persistent_memoize'
+
+
 gem 'sinatra', '~> 1.3.3'

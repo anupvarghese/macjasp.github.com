@@ -123,4 +123,4 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_tag('flickr_set', Jekyll::FlickrSetTag)
+Liquid::Template.register_tag('flickr_sets', Jekyll::FlickrSetTag)
