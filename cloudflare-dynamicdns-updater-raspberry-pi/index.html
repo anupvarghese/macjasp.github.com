@@ -20,6 +20,42 @@
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/fancybox/jquery.fancybox.pack.js"></script>
+
+<script language="Javascript" type="text/javascript">
+$(document).ready(
+  function() {
+    (function($) {
+      $(".fancybox[data-content-id]").each(function() {
+        this.href = $(this).data('content-id');
+      });
+      $(".fancybox").fancybox({
+        beforeLoad: function() {
+          var el, 
+              id = $(this.element).data('title-id');
+
+          if (id) {
+            el = $('#' + id);
+
+            if (el.length) {
+              this.title = el.html();
+            }
+          }
+          if ($(this).data('content')) {
+            this.content = $(this).data('content');
+          }
+        },
+        helpers: {
+          title: {
+            type: 'inside'
+          }
+        }
+      });
+    })(jQuery);
+  }
+);
+</script>
 	
 </head>
 
@@ -49,7 +85,7 @@
 		<div class="container">
 			<form action="http://google.com/search" method="get">
 				<input type="text" name="q" results="0">
-				<input type="hidden" name="q" value="site:macjasp.github.com">
+				<input type="hidden" name="q" value="site:carmo.org.uk">
 			</form>
 		</div>
 	</div>
@@ -61,9 +97,6 @@
 	<div id="content" class="inner"><article class="post">
 	<h2 class="title">Dynamic DNS Updater for CloudFlare</h2>
 	<div class="entry-content"><p>Over the weekend I decided to move hosting of this blog from Github Pages to the Raspberry Pi that resides in the bedroom of my home<sup id='fnref:1'><a href='#fn:1' rel='footnote'>1</a></sup>. The site has always been protected by the impressive <a href="http://www.cloudflare.com/">CloudFlare</a> but that protection is even more critical now I&#8217;ve made that change, it does however present a particular challenge around dynamically assigned IP addresses that ISP&#8217;s dish out on consumer broadband and fibre networks.</p>
-
-<!-- more -->
-
 
 <center><img src="https://dl.dropbox.com/u/22370970/blogimages/cloudflare.png"></center>
 
@@ -86,7 +119,7 @@
 
 <div class="footnotes">
     <ol>
-        <li id='fn:1'><p><del>The static pages of this Octopress blog are being served by <a href="http://nginx.org/en/">Nginx</a> and performance is admirable on the Raspberry Pi.</del> I had to change hosting back to Github Pages after some weird sleeping issues the Pi was experiencing.
+        <li id='fn:1'><p>The static pages of this Octopress blog are being served by <a href="http://nginx.org/en/">Nginx</a> and performance is admirable on the Raspberry Pi.
 <a href='#fnref:1' rev='footnote'>↩</a></p>
 </li><li id='fn:2'><p>I currently have mine set to update CloudFlare every 55 minutes.
 <a href='#fnref:2' rev='footnote'>↩</a></p>
@@ -147,12 +180,12 @@
 Powered by Octopress.
 </footer>
 	<script src="/javascripts/slash.js"></script>
-<!-- <script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
 <script type="text/javascript">
 (function($){
 	$('.fancybox').fancybox();
 })(jQuery);
-</script> Delete or comment this line to disable Fancybox -->
+</script> <!-- Delete or comment this line to disable Fancybox -->
 
 
 

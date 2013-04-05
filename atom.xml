@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[carmo]]></title>
-  <link href="http://macjasp.github.com/atom.xml" rel="self"/>
-  <link href="http://macjasp.github.com/"/>
-  <updated>2013-03-30T18:34:44+00:00</updated>
-  <id>http://macjasp.github.com/</id>
+  <link href="http://carmo.org.uk/atom.xml" rel="self"/>
+  <link href="http://carmo.org.uk/"/>
+  <updated>2013-04-05T16:23:41+01:00</updated>
+  <id>http://carmo.org.uk/</id>
   <author>
     <name><![CDATA[carmo.org.uk]]></name>
     
@@ -14,14 +14,23 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Street Steps]]></title>
+    <link href="http://carmo.org.uk/street-steps/"/>
+    <updated>2013-04-01T17:16:00+01:00</updated>
+    <id>http://carmo.org.uk/street-steps</id>
+    <content type="html"><![CDATA[<center><img src="http://farm9.staticflickr.com/8531/8610773724_53132e216f_c_d.jpg"></center>
+
+
+<p><img src="https://dl.dropbox.com/u/22370970/blogimages/flickr_favicon.jpg"> <a href="http://www.flickr.com/photos/-macjasp/8610773724/">Street Steps</a> • Exposure (1/640) • Aperture f/4.0 • Focal Length   20mm • ISO 160</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Dynamic DNS Updater for CloudFlare]]></title>
-    <link href="http://macjasp.github.com/cloudflare-dynamicdns-updater-raspberry-pi/"/>
+    <link href="http://carmo.org.uk/cloudflare-dynamicdns-updater-raspberry-pi/"/>
     <updated>2013-03-24T19:42:00+00:00</updated>
-    <id>http://macjasp.github.com/cloudflare-dynamicdns-updater-raspberry-pi</id>
+    <id>http://carmo.org.uk/cloudflare-dynamicdns-updater-raspberry-pi</id>
     <content type="html"><![CDATA[<p>Over the weekend I decided to move hosting of this blog from Github Pages to the Raspberry Pi that resides in the bedroom of my home<sup id='fnref:1'><a href='#fn:1' rel='footnote'>1</a></sup>. The site has always been protected by the impressive <a href="http://www.cloudflare.com/">CloudFlare</a> but that protection is even more critical now I&#8217;ve made that change, it does however present a particular challenge around dynamically assigned IP addresses that ISP&#8217;s dish out on consumer broadband and fibre networks.</p>
-
-<!-- more -->
-
 
 <center><img src="https://dl.dropbox.com/u/22370970/blogimages/cloudflare.png"></center>
 
@@ -44,7 +53,7 @@
 
 <div class="footnotes">
     <ol>
-        <li id='fn:1'><p><del>The static pages of this Octopress blog are being served by <a href="http://nginx.org/en/">Nginx</a> and performance is admirable on the Raspberry Pi.</del> I had to change hosting back to Github Pages after some weird sleeping issues the Pi was experiencing.
+        <li id='fn:1'><p>The static pages of this Octopress blog are being served by <a href="http://nginx.org/en/">Nginx</a> and performance is admirable on the Raspberry Pi.
 <a href='#fnref:1' rev='footnote'>↩</a></p>
 </li><li id='fn:2'><p>I currently have mine set to update CloudFlare every 55 minutes.
 <a href='#fnref:2' rev='footnote'>↩</a></p>
@@ -57,13 +66,10 @@
   
   <entry>
     <title type="html"><![CDATA[An Octopress Flickr Set Plugin]]></title>
-    <link href="http://macjasp.github.com/an-octopress-flickr-set-plugin/"/>
+    <link href="http://carmo.org.uk/an-octopress-flickr-set-plugin/"/>
     <updated>2013-02-27T16:27:00+00:00</updated>
-    <id>http://macjasp.github.com/an-octopress-flickr-set-plugin</id>
+    <id>http://carmo.org.uk/an-octopress-flickr-set-plugin</id>
     <content type="html"><![CDATA[<p>While I was in the process of setting up and theming this site I envisaged writing a post that documented the migration of my Instagram photos to Flickr<sup id='fnref:1'><a href='#fn:1' rel='footnote'>1</a></sup>, the idea being that I would then embed the newly migrated Flickr photo set in said post on this Octopress powered blog.</p>
-
-<!-- more -->
-
 
 <p>I wasn&#8217;t entirely sure whether I&#8217;d have to write my own plugin to do so or if I&#8217;d be lucky enough to find one already out there and I was thankfully saved the work after coming across a <a href="https://github.com/tsmango/jekyll_flickr_set_tag">great little Octopress plugin by tsmango</a> that did almost everything I was after, however I felt it could be improved upon so decided to fork the project and make some changes of my own.</p>
 

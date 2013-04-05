@@ -1,39 +1,43 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://macjasp.github.com/an-octopress-flickr-set-plugin/</loc>
-        <lastmod>2013-03-11T22:31:10+00:00</lastmod>
+        <loc>http://carmo.org.uk/an-octopress-flickr-set-plugin/</loc>
+        <lastmod>2013-04-05T15:24:58+01:00</lastmod>
     </url>
     <url>
-        <loc>http://macjasp.github.com/cloudflare-dynamicdns-updater-raspberry-pi/</loc>
-        <lastmod>2013-03-30T18:33:57+00:00</lastmod>
+        <loc>http://carmo.org.uk/cloudflare-dynamicdns-updater-raspberry-pi/</loc>
+        <lastmod>2013-04-05T15:24:50+01:00</lastmod>
     </url>
     <url>
-        <loc>http://macjasp.github.com/blog/archives/</loc>
-        <lastmod>2013-03-30T18:33:57+00:00</lastmod>
+        <loc>http://carmo.org.uk/street-steps/</loc>
+        <lastmod>2013-04-05T16:17:12+01:00</lastmod>
     </url>
     <url>
-        <loc>http://macjasp.github.com/blog/</loc>
-        <lastmod>2013-03-30T18:33:57+00:00</lastmod>
+        <loc>http://carmo.org.uk/blog/archives/</loc>
+        <lastmod>2013-04-05T16:17:12+01:00</lastmod>
     </url>
     <url>
-        <loc>http://macjasp.github.com/portfolio/</loc>
-        <lastmod>2013-03-30T18:33:57+00:00</lastmod>
+        <loc>http://carmo.org.uk/blog/</loc>
+        <lastmod>2013-04-05T16:17:12+01:00</lastmod>
     </url>
     <url>
-        <loc>http://macjasp.github.com/about/</loc>
+        <loc>http://carmo.org.uk/portfolio/</loc>
+        <lastmod>2013-04-05T16:17:12+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://carmo.org.uk/about/</loc>
         <lastmod>2013-03-30T17:46:54+00:00</lastmod>
     </url>
     <url>
-        <loc>http://macjasp.github.com/archives/</loc>
-        <lastmod>2013-03-30T18:33:57+00:00</lastmod>
+        <loc>http://carmo.org.uk/archives/</loc>
+        <lastmod>2013-04-05T16:17:12+01:00</lastmod>
     </url>
     <url>
-        <loc>http://macjasp.github.com/</loc>
-        <lastmod>2013-03-30T18:33:57+00:00</lastmod>
+        <loc>http://carmo.org.uk/</loc>
+        <lastmod>2013-04-05T16:17:12+01:00</lastmod>
     </url>
     <url>
-        <loc>http://macjasp.github.com/robots.txt</loc>
+        <loc>http://carmo.org.uk/robots.txt</loc>
         <lastmod>2013-01-29T12:55:07+00:00</lastmod>
     </url>
 </urlset>
