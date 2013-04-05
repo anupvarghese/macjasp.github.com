@@ -4,7 +4,7 @@
   <title><![CDATA[Category: dyndns | carmo]]></title>
   <link href="http://carmo.org.uk/blog/categories/dyndns/atom.xml" rel="self"/>
   <link href="http://carmo.org.uk/"/>
-  <updated>2013-04-05T16:23:41+01:00</updated>
+  <updated>2013-04-05T16:37:14+01:00</updated>
   <id>http://carmo.org.uk/</id>
   <author>
     <name><![CDATA[carmo.org.uk]]></name>
@@ -41,7 +41,7 @@
 
 <p><div class="footnotes">
 	<ol>
-		<li id='fn:1'><p>The static pages of this Octopress blog are being served by <a href="http://nginx.org/en/">Nginx</a> and performance is admirable on the Raspberry Pi.
+		<li id='fn:1'><p><del>The static pages of this Octopress blog are being served by <a href="http://nginx.org/en/">Nginx</a> and performance is admirable on the Raspberry Pi</del> I've since had to move hosting back to Github Pages following some weird sleeping issues the Pi was experiencing.
 <a href='#fnref:1' rev='footnote'>↩</a></p>
 </li><li id='fn:2'><p>I currently have mine set to update CloudFlare every 55 minutes.
 <a href='#fnref:2' rev='footnote'>↩</a></p>
