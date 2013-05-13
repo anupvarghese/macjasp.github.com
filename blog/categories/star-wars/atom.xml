@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: star wars | carmo]]></title>
+  <link href="http://carmo.org.uk/blog/categories/star-wars/atom.xml" rel="self"/>
+  <link href="http://carmo.org.uk/"/>
+  <updated>2013-05-13T22:55:18+01:00</updated>
+  <id>http://carmo.org.uk/</id>
+  <author>
+    <name><![CDATA[carmo.org.uk]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Stormtrooper]]></title>
+    <link href="http://carmo.org.uk/lego-stormstrooper/"/>
+    <updated>2013-05-12T17:16:00+01:00</updated>
+    <id>http://carmo.org.uk/lego-stormstrooper</id>
+    <content type="html"><![CDATA[<center><img class="img" src="http://farm8.staticflickr.com/7288/8731519733_0ef370562e_b_d.jpg"></center>
+
+
+<p><img src="https://dl.dropbox.com/u/22370970/blogimages/flickr_favicon.jpg"> <a href="http://www.flickr.com/photos/-macjasp/8731519733/">Stormtrooper</a> • Exposure (1/10) • Aperture    f/5.6 • Focal Length   42mm • ISO 800</p>
+]]></content>
+  </entry>
+  
+</feed>
