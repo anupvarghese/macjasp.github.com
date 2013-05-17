@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: octopress | carmo]]></title>
+  <link href="http://carmo.org.uk/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://carmo.org.uk/"/>
+  <updated>2013-05-17T16:24:56+01:00</updated>
+  <id>http://carmo.org.uk/</id>
+  <author>
+    <name><![CDATA[carmo.org.uk]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[CleanPress OctoPress Theme]]></title>
+    <link href="http://carmo.org.uk/cleanpress-octopress-theme/"/>
+    <updated>2013-05-17T15:58:00+01:00</updated>
+    <id>http://carmo.org.uk/cleanpress-octopress-theme</id>
+    <content type="html"><![CDATA[<center> <img src="https://dl.dropboxusercontent.com/u/22370970/blogimages/blog_theme.jpg"></center>
+
+
+<p>I'm a huge fan of clean, white, elegant and responsive blog designs so when I was originally setting up this site I created my own custom theme based on the <a href="http://zespia.tw/Octopress-Theme-Slash/">Slash theme</a> but taking a lot of influence from <a href="http://blog.gesteves.com/">Guillermo Esteves</a> beautiful blog whilst still retaining some originality.</p>
+
+<p>The theme is now at a point where I'm happy to share it publicly, so I've given it a name of 'CleanPress' and made it available via my <a href="https://github.com/macjasp/cleanpress">GitHub repository</a>.</p>
+
+<p>There's still work to do in cleaning up the remnants of the Slash Theme and I'm no expert on the OctoPress platform as yet so there's no doubt much mess but I'm hoping someone can take it on and improve it further.</p>
+
+<p>In the meantime, I'll happily take any comments or questions on the current version and if you do use it on your own site or modify it further I'd love to know.</p>
+]]></content>
+  </entry>
+  
+</feed>
