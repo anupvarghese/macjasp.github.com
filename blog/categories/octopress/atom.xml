@@ -4,7 +4,7 @@
   <title><![CDATA[Category: octopress | carmo]]></title>
   <link href="http://carmo.org.uk/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://carmo.org.uk/"/>
-  <updated>2013-05-18T10:01:02+01:00</updated>
+  <updated>2013-05-18T14:47:12+01:00</updated>
   <id>http://carmo.org.uk/</id>
   <author>
     <name><![CDATA[carmo.org.uk]]></name>
@@ -25,7 +25,7 @@
 
 <p>The theme is now at a point where I'm happy to share it publicly, so I've given it a name of 'CleanPress' and made it available via my <a href="https://github.com/macjasp/cleanpress">GitHub repository</a>.</p>
 
-<p>There's still work to do in cleaning up the remnants of the Slash Theme and I'm no expert on the Octopress platform as yet so there's no doubt much mess but I'm hoping someone can take it on and improve it further.</p>
+<p>There's still work to do in cleaning up the remnants of the Slash Theme and I'm by no means an expert on the Octopress platform so there's no doubt much mess but I'm hoping someone can take it on and improve it further.</p>
 
 <p>In the meantime, I'll happily take any comments or questions on the current version and if you do use it on your own site or modify it further I'd love to know.</p>
 ]]></content>
