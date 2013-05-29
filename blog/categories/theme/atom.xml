@@ -4,7 +4,7 @@
   <title><![CDATA[Category: theme | carmo]]></title>
   <link href="http://carmo.org.uk/blog/categories/theme/atom.xml" rel="self"/>
   <link href="http://carmo.org.uk/"/>
-  <updated>2013-05-29T17:07:28+01:00</updated>
+  <updated>2013-05-29T17:14:11+01:00</updated>
   <id>http://carmo.org.uk/</id>
   <author>
     <name><![CDATA[carmo.org.uk]]></name>
@@ -21,7 +21,7 @@
     <content type="html"><![CDATA[<center> <img src="https://dl.dropboxusercontent.com/u/22370970/blogimages/blog_theme.jpg"></center>
 
 
-<p>I'm a huge fan of clean, white, elegant and responsive websites so when I originally set up this blog I took the decision to create my own custom design based on this specific criteria. Using the <a href="http://zespia.tw/Octopress-Theme-Slash/">Slash theme</a> as a base I then took inspiration from <a href="http://blog.gesteves.com/">Guillermo Esteves</a> beautiful blog whilst attempting to retain an element of originality in what I was creating.</p>
+<p>I'm a huge fan of clean, white, elegant and responsive websites, so when I originally set up this blog I took the decision to create my own custom design based on this specific criteria. Using the <a href="http://zespia.tw/Octopress-Theme-Slash/">Slash theme</a> as a base I then took inspiration from <a href="http://blog.gesteves.com/">Guillermo Esteves beautiful blog</a> whilst attempting to retain an element of originality in what I was creating.</p>
 
 <p>The theme is now at a point where I'm happy to share it publicly, so I've given it a name of 'CleanPress' and made it available via my <a href="https://github.com/macjasp/cleanpress">GitHub repository</a>.</p>
 
