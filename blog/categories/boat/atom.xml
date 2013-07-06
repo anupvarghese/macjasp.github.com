@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: boat | carmo]]></title>
+  <link href="http://carmo.org.uk/blog/categories/boat/atom.xml" rel="self"/>
+  <link href="http://carmo.org.uk/"/>
+  <updated>2013-07-06T10:06:06+01:00</updated>
+  <id>http://carmo.org.uk/</id>
+  <author>
+    <name><![CDATA[carmo.org.uk]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Boat]]></title>
+    <link href="http://carmo.org.uk/boat/"/>
+    <updated>2013-06-29T19:48:00+01:00</updated>
+    <id>http://carmo.org.uk/boat</id>
+    <content type="html"><![CDATA[<center><img class="img" src="http://farm8.staticflickr.com/7422/9167891309_ceb0f8da33_o_d.jpg"></center>
+
+
+<p><img src="https://dl.dropbox.com/u/22370970/blogimages/flickr_favicon.jpg"> <a href="http://www.flickr.com/photos/-macjasp/9167891309/">Boat</a> • Exposure (1/2500) • Aperture  f/3.2 • Focal Length   20mm • ISO 160</p>
+]]></content>
+  </entry>
+  
+</feed>

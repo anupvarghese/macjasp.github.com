@@ -4,7 +4,7 @@
   <title><![CDATA[Category: photography | carmo]]></title>
   <link href="http://carmo.org.uk/blog/categories/photography/atom.xml" rel="self"/>
   <link href="http://carmo.org.uk/"/>
-  <updated>2013-06-14T19:16:35+01:00</updated>
+  <updated>2013-07-06T10:06:06+01:00</updated>
   <id>http://carmo.org.uk/</id>
   <author>
     <name><![CDATA[carmo.org.uk]]></name>
@@ -14,10 +14,22 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Boat]]></title>
+    <link href="http://carmo.org.uk/boat/"/>
+    <updated>2013-06-29T19:48:00+01:00</updated>
+    <id>http://carmo.org.uk/boat</id>
+    <content type="html"><![CDATA[<center><img class="img" src="http://farm8.staticflickr.com/7422/9167891309_ceb0f8da33_o_d.jpg"></center>
+
+
+<p><img src="https://dl.dropbox.com/u/22370970/blogimages/flickr_favicon.jpg"> <a href="http://www.flickr.com/photos/-macjasp/9167891309/">Boat</a> • Exposure (1/2500) • Aperture  f/3.2 • Focal Length   20mm • ISO 160</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Stormtrooper]]></title>
-    <link href="http://carmo.org.uk/lego-stormtrooper/"/>
+    <link href="http://carmo.org.uk/lego-stormtrooper+copy/"/>
     <updated>2013-05-12T17:16:00+01:00</updated>
-    <id>http://carmo.org.uk/lego-stormtrooper</id>
+    <id>http://carmo.org.uk/lego-stormtrooper copy</id>
     <content type="html"><![CDATA[<center><img class="img" src="http://farm8.staticflickr.com/7288/8731519733_0ef370562e_b_d.jpg"></center>
 
 
