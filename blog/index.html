@@ -101,6 +101,140 @@ $(document).ready(
     <article class="post">
 	<h2 class="title">
 		
+		<a href="/crosses/">
+		
+			Crosses</a>
+	</h2>
+	<div class="entry-content">
+		<center><img class="img" src="http://farm6.staticflickr.com/5327/9464868723_cbb889e59e_o_d.jpg"></center>
+
+
+<p><img src="https://dl.dropbox.com/u/22370970/blogimages/flickr_favicon.jpg"> <a href="http://www.flickr.com/photos/-macjasp/9464868723/">Crosses</a> • Exposure (1/13) • Aperture   f/13.0 • Focal Length  42mm • ISO 200</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-08-08T20:40:00+01:00" pubdate data-updated="true">Aug 8<span>th</span>, 2013</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/photography/'>photography</a>, <a class='category' href='/blog/categories/summer/'>summer</a>, <a class='category' href='/blog/categories/sunset/'>sunset</a>
+
+
+</div>
+	
+</div></article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/octopress-on-a-raspberry-pi/">
+		
+			Octopress on a Raspberry Pi</a>
+	</h2>
+	<div class="entry-content">
+		<p>Sitting in the corner of my study is a Raspberry Pi, attached to my home network through a wireless connection provided by an Edimax EW-7811UN 150Mbps Wireless Nano USB Adapter<sup id='fnref:1'><a href='#fn:1' rel='footnote'>1</a></sup>.</p>
+
+<center><img src="https://dl.dropboxusercontent.com/u/22370970/blogimages/RpiandEdimax.JPG" title="My Raspberry Pi Model B with an Edimax WiFi USB Dongle attached which serves this blog." ></center>
+
+
+<p>I absolutely adore the little device and it&#8217;s versatility means I&#8217;ve been able to mess around and play to my hearts content over the last few months. Amongst the vast array of software, hacks and peripherals you can add to the device, to date I&#8217;ve been able to;</p>
+
+<ul>
+<li>Turn it in to an <a href="http://lifehacker.com/5978594/turn-a-raspberry-pi-into-an-airplay-receiver-for-streaming-music-in-your-living-room">AirPlay Receiver</a> using a Dynamode USB Sound Card.</li>
+<li>Create an <a href="http://willitscript.com/post/40357408648/using-your-pi-as-a-l2tp-vpn-server">L2TP VPN server</a> for my iOS devices</li>
+<li>Create a <a href="http://www.robertsetiadi.net/installing-transmission-in-raspberry-pi/">Transmission torrent server</a></li>
+<li>Setup a <a href="http://everbit.wordpress.com/2013/04/01/minidlna-on-the-raspberry-pi/">DLNA Server</a> for streaming movies to my PS3</li>
+<li><a href="https://mug.im/blog/2013/01/20/how-to-deploy-octopress-on-a-raspberrypi/">Installed Octopress</a> for this very blog.</li>
+</ul>
+
+
+<h3>Self Hosting</h3>
+
+<p>This week I&#8217;ve also moved hosting of this blog across to the Pi and away from Github Pages. I&#8217;m sure the Pi will cope quite admirably with the trivial amount of traffic this blog receives on a daily basis and with extra protection provided by <a href="http://www.cloudflare.com">CloudFlare</a> I don&#8217;t have any real concerns over performance, in fact it should run extremely well.</p>
+
+<p>I decided upon <a href="http://nginx.org">Nginx</a> as it&#8217;s web server, being fairly lightweight and <a href="http://www.erikminkel.com/2012/12/17/host-your-own-jekyll-based-blog-on-a-raspberry-pi/">relatively trivial to configure with Octopress</a> so it&#8217;s now a simple case of watching the Pi&#8217;s performance closely in the coming weeks.</p>
+
+<p>Dynamic DNS is the only piece of this self-hosting puzzle not satisfactorily resolved as yet<sup id='fnref:2'><a href='#fn:2' rel='footnote'>2</a></sup>. I&#8217;m currently using a <a href="http://gianpaj.com/post/34222308317/raspberry-pi-with-cloudflares-dynamic-dns-ddclient">modified version of ddclient</a> with a CloudFlare hack which seems to work in verbose/debug mode, although time will tell if that really is the case on an automated basis once my external IP changes in the coming days/weeks.</p>
+
+<h3>Workflow</h3>
+
+<p>Octopress and a Raspberry Pi fit perfectly together, I can be completely mobile yet still write content (and include photographs) and publish them to this blog with ease using a combination of the following software and workflow;</p>
+
+<ol>
+<li>Create a new post content using <a href="http://www.iawriter.com">iA Writer</a> before saving to Dropbox.<sup id='fnref:3'><a href='#fn:3' rel='footnote'>3</a></sup></li>
+<li>SSH to the Pi using a brilliant bit of software called <a href="http://panic.com/prompt/">Prompt</a>.</li>
+<li>Download the newly created post to the RPi&#8217;s Octopress _posts folder using <a href="http://www.andreafabrizi.it/?dropbox_uploader">Dropbox Uploader</a>.</li>
+<li>Finally, using Prompt again, perform a &#8216;rake generate&#8217; to update the content on the Pi&#8217;s NGinx web server and present it to the world.</li>
+</ol>
+
+
+<p>It&#8217;s also worth mentioning another great iOS App called <a href="http://www.textasticapp.com">Textastic</a> which enables me to also modify my Octopress source code and theme whilst mobile too.</p>
+
+<p>This combination of Apps and mobile devices is actually making my blogging a pleasure.</p>
+
+<div class="footnotes">
+    <ol>
+        <li id='fn:1'><p>I highly recommend this USB Adaptor if you want to go wireless with your Pi.
+<a href='#fnref:1' rev='footnote'>↩</a></p>
+</li><li id='fn:2'><p>Why don&#8217;t British Telecom give the option of a static IP with their Infinity product?
+<a href='#fnref:2' rev='footnote'>↩</a></p>
+</li><li id='fn:3'><p>At this point if I was to include a photo in my post I&#8217;d save this to the Public folder on my Dropbox account.
+<a href='#fnref:3' rev='footnote'>↩</a></p>
+</li>
+    </ol>
+</div>
+
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-07-28T14:30:00+01:00" pubdate data-updated="true">Jul 28<span>th</span>, 2013</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/octopress/'>octopress</a>, <a class='category' href='/blog/categories/raspberry-pi/'>raspberry pi</a>
+
+
+</div>
+	
+</div></article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
 		<a href="/boat/">
 		
 			Boat</a>
@@ -193,7 +327,7 @@ $(document).ready(
     <article class="post">
 	<h2 class="title">
 		
-		<a href="/lego-stormtrooper+copy/">
+		<a href="/lego-stormtrooper/">
 		
 			Stormtrooper</a>
 	</h2>
@@ -366,7 +500,7 @@ $(document).ready(
 
 <p>Below is the result of those changes and the amended plugin is available to install <a href="https://github.com/macjasp/jekyll_flickr_set_tag">from my Github repository</a>.</p>
 
-<center><p class="gallery"><a href="http://www.flickr.com/photos/-macjasp/6792807178/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7047/6792807178_8a27af2635_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6792808304/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7209/6792808304_9d03826687_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6406125177/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7148/6406125177_d44ce6a395_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6938918399/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7188/6938918399_421266f909_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6823328091/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7148/6823328091_e20e644fb4_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7257837422/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7228/7257837422_4784fe499f_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7874317828/in/photostream" target ="_blank">  <img src="http://farm9.staticflickr.com/8433/7874317828_bd4d873b4d_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6406126561/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7142/6406126561_72a45959cc_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/8646750870/in/photostream" target ="_blank">  <img src="http://farm9.staticflickr.com/8387/8646750870_f55dd75c75_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6823340369/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7169/6823340369_3567dd39c1_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6406127393/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7035/6406127393_d62a2d96a3_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/5188128406/in/photostream" target ="_blank">  <img src="http://farm5.staticflickr.com/4084/5188128406_96c048e35e_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6058828631/in/photostream" target ="_blank">  <img src="http://farm7.staticflickr.com/6073/6058828631_7025fd7177_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6823331845/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7011/6823331845_8e9fede2e9_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7412633628/in/photostream" target ="_blank">  <img src="http://farm6.staticflickr.com/5342/7412633628_b2cfb403b5_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7406638072/in/photostream" target ="_blank">  <img src="http://farm9.staticflickr.com/8026/7406638072_de04ef8431_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/5661270209/in/photostream" target ="_blank">  <img src="http://farm6.staticflickr.com/5222/5661270209_c1b01c80fb_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/5327571614/in/photostream" target ="_blank">  <img src="http://farm6.staticflickr.com/5202/5327571614_ebc98dde16_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7409103142/in/photostream" target ="_blank">  <img src="http://farm6.staticflickr.com/5159/7409103142_25c8c4d67b_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7409111074/in/photostream" target ="_blank">  <img src="http://farm9.staticflickr.com/8007/7409111074_b6d5f5c57c_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7404057664/in/photostream" target ="_blank">  <img src="http://farm6.staticflickr.com/5280/7404057664_c363eba51a_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7404054108/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7213/7404054108_f8f86d9863_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7404052072/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7099/7404052072_8e6c27045e_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6358623881/in/photostream" target ="_blank">  <img src="http://farm7.staticflickr.com/6045/6358623881_94f7ff693a_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/5710867643/in/photostream" target ="_blank">  <img src="http://farm4.staticflickr.com/3457/5710867643_6f9a988bcd_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7146347189/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7040/7146347189_b4f075c7f8_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7146345069/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7277/7146345069_a35c61c577_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7670716712/in/photostream" target ="_blank">  <img src="http://farm9.staticflickr.com/8421/7670716712_d9dfb8126d_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/8694023466/in/photostream" target ="_blank">  <img src="http://farm9.staticflickr.com/8126/8694023466_d5fa5fcec8_s.jpg" rel=""/></a></p></center>
+<center><p class="gallery"><a href="http://www.flickr.com/photos/-macjasp/6792807178/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7047/6792807178_8a27af2635_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6792808304/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7209/6792808304_9d03826687_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6406125177/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7148/6406125177_d44ce6a395_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6938918399/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7188/6938918399_421266f909_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6823328091/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7148/6823328091_e20e644fb4_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7257837422/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7228/7257837422_4784fe499f_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6406126561/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7142/6406126561_72a45959cc_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/8646750870/in/photostream" target ="_blank">  <img src="http://farm9.staticflickr.com/8387/8646750870_f55dd75c75_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6823340369/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7169/6823340369_3567dd39c1_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6406127393/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7035/6406127393_d62a2d96a3_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/5188128406/in/photostream" target ="_blank">  <img src="http://farm5.staticflickr.com/4084/5188128406_96c048e35e_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6058828631/in/photostream" target ="_blank">  <img src="http://farm7.staticflickr.com/6073/6058828631_7025fd7177_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6823331845/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7011/6823331845_8e9fede2e9_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7406638072/in/photostream" target ="_blank">  <img src="http://farm9.staticflickr.com/8026/7406638072_de04ef8431_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7412633628/in/photostream" target ="_blank">  <img src="http://farm6.staticflickr.com/5342/7412633628_b2cfb403b5_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/5661270209/in/photostream" target ="_blank">  <img src="http://farm6.staticflickr.com/5222/5661270209_c1b01c80fb_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/5327571614/in/photostream" target ="_blank">  <img src="http://farm6.staticflickr.com/5202/5327571614_ebc98dde16_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7409111074/in/photostream" target ="_blank">  <img src="http://farm9.staticflickr.com/8007/7409111074_b6d5f5c57c_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7409103142/in/photostream" target ="_blank">  <img src="http://farm6.staticflickr.com/5159/7409103142_25c8c4d67b_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7404057664/in/photostream" target ="_blank">  <img src="http://farm6.staticflickr.com/5280/7404057664_c363eba51a_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7404054108/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7213/7404054108_f8f86d9863_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7404052072/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7099/7404052072_8e6c27045e_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6358623881/in/photostream" target ="_blank">  <img src="http://farm7.staticflickr.com/6045/6358623881_94f7ff693a_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/5710867643/in/photostream" target ="_blank">  <img src="http://farm4.staticflickr.com/3457/5710867643_6f9a988bcd_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7146347189/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7040/7146347189_b4f075c7f8_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7146345069/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7277/7146345069_a35c61c577_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7670716712/in/photostream" target ="_blank">  <img src="http://farm9.staticflickr.com/8421/7670716712_d9dfb8126d_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/8694023466/in/photostream" target ="_blank">  <img src="http://farm9.staticflickr.com/8126/8694023466_d5fa5fcec8_s.jpg" rel=""/></a></p></center>
 
 
 <br>

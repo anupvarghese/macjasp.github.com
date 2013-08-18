@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: octopress | carmo]]></title>
-  <link href="http://carmo.org.uk/blog/categories/octopress/atom.xml" rel="self"/>
+  <title><![CDATA[Category: raspberry pi | carmo]]></title>
+  <link href="http://carmo.org.uk/blog/categories/raspberry-pi/atom.xml" rel="self"/>
   <link href="http://carmo.org.uk/"/>
   <updated>2013-08-10T22:35:55+01:00</updated>
   <id>http://carmo.org.uk/</id>
@@ -70,24 +70,6 @@
 	</ol>
 </div>
 </p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[CleanPress Octopress Theme]]></title>
-    <link href="http://carmo.org.uk/cleanpress-octopress-theme/"/>
-    <updated>2013-05-17T15:58:00+01:00</updated>
-    <id>http://carmo.org.uk/cleanpress-octopress-theme</id>
-    <content type="html"><![CDATA[<center> <img src="https://dl.dropboxusercontent.com/u/22370970/blogimages/blog_theme.jpg"></center>
-
-
-<p>I'm a huge fan of clean, white, elegant and responsive websites, so when I originally set up this blog I took the decision to create my own custom design based on this specific criteria. Using the <a href="http://zespia.tw/Octopress-Theme-Slash/">Slash theme</a> as a base I then took inspiration from <a href="http://blog.gesteves.com/">Guillermo Esteves beautiful blog</a> whilst attempting to retain an element of originality in what I was creating.</p>
-
-<p>The theme is now at a point where I'm happy to share it publicly, so I've given it a name of 'CleanPress' and made it available via my <a href="https://github.com/macjasp/cleanpress">GitHub repository</a>.</p>
-
-<p>There's still work to do in cleaning up the remnants of the Slash Theme and I'm by no means an expert on the Octopress platform so there's no doubt much mess but I'm hoping someone can take it on and improve it further.</p>
-
-<p>In the meantime, I'll happily take any comments or questions on the current version and if you do use it on your own site or modify it further I'd love to know.</p>
 ]]></content>
   </entry>
   
