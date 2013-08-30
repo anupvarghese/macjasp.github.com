@@ -4,7 +4,7 @@
   <title><![CDATA[carmo]]></title>
   <link href="http://carmo.org.uk/atom.xml" rel="self"/>
   <link href="http://carmo.org.uk/"/>
-  <updated>2013-08-30T17:33:59+01:00</updated>
+  <updated>2013-08-30T17:39:16+01:00</updated>
   <id>http://carmo.org.uk/</id>
   <author>
     <name><![CDATA[carmo.org.uk]]></name>
@@ -32,12 +32,13 @@
     <link href="http://carmo.org.uk/temperature-check-raspberrypi/"/>
     <updated>2013-08-19T20:55:00+01:00</updated>
     <id>http://carmo.org.uk/temperature-check-raspberrypi</id>
-    <content type="html"><![CDATA[<p>There&#8217;s been some warm days in the UK recently and of course the Raspberry Pi has no means of keeping itself cool. It also sits within a plastic casing but after removing it the difference in temperature is noticeable.</p>
+    <content type="html"><![CDATA[<p>There&#8217;s been some warm days in the UK recently and I&#8217;m conscious that myRaspberry Pi has no means of keeping itself cool. It had been sitting in a <a href="http://raspberrypi.rsdelivers.com/product/rs/raspberry-pi-type-b-case-white/casewht.aspx">moulded plastic case from RS Components</a> but after removing it there was a noticeable drop in temperature.</p>
 
 <center><img src="https://dl.dropboxusercontent.com/u/22370970/blogimages/rpi_temperature.jpg"></center>
 
 
-<p>Stats are provided by <a href="https://github.com/XavierBerger/RPi-Monitor">Rpi-Monitor</a></p>
+<p>Stats are provided by <a href="https://github.com/XavierBerger/RPi-Monitor">Rpi-Monitor</a>
+It makes me wonder if housing the little computer is a sensible approach?</p>
 ]]></content>
   </entry>
   
