@@ -4,7 +4,7 @@
   <title><![CDATA[Category: technology | carmo]]></title>
   <link href="http://carmo.org.uk/blog/categories/technology/atom.xml" rel="self"/>
   <link href="http://carmo.org.uk/"/>
-  <updated>2013-08-30T17:39:16+01:00</updated>
+  <updated>2013-08-30T17:46:00+01:00</updated>
   <id>http://carmo.org.uk/</id>
   <author>
     <name><![CDATA[carmo.org.uk]]></name>
@@ -23,8 +23,7 @@
 <center><img src="https://dl.dropboxusercontent.com/u/22370970/blogimages/rpi_temperature.jpg"></center>
 
 
-<p>Stats are provided by <a href="https://github.com/XavierBerger/RPi-Monitor">Rpi-Monitor</a>
-It makes me wonder if housing the little computer is a sensible approach?</p>
+<p>It makes me wonder if housing the little computer is a sensible approach? (Stats are provided by <a href="https://github.com/XavierBerger/RPi-Monitor">Rpi-Monitor</a>)</p>
 ]]></content>
   </entry>
   
