@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: cloudflare | carmo]]></title>
-  <link href="http://carmo.org.uk/blog/categories/cloudflare/atom.xml" rel="self"/>
-  <link href="http://carmo.org.uk/"/>
-  <updated>2013-10-18T15:32:47+01:00</updated>
-  <id>http://carmo.org.uk/</id>
+  <link href="http://macjasp.github.com/blog/categories/cloudflare/atom.xml" rel="self"/>
+  <link href="http://macjasp.github.com/"/>
+  <updated>2013-10-18T15:56:53+01:00</updated>
+  <id>http://macjasp.github.com/</id>
   <author>
-    <name><![CDATA[carmo.org.uk]]></name>
+    <name><![CDATA[macjasp]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Dynamic DNS Updater for CloudFlare]]></title>
-    <link href="http://carmo.org.uk/cloudflare-dynamicdns-updater-raspberry-pi/"/>
+    <link href="http://macjasp.github.com/cloudflare-dynamicdns-updater-raspberry-pi/"/>
     <updated>2013-03-24T19:42:00+00:00</updated>
-    <id>http://carmo.org.uk/cloudflare-dynamicdns-updater-raspberry-pi</id>
+    <id>http://macjasp.github.com/cloudflare-dynamicdns-updater-raspberry-pi</id>
     <content type="html"><![CDATA[<p>Over the weekend I decided to move hosting of this blog from Github Pages to the Raspberry Pi that resides in the bedroom of my home<sup id='fnref:1'><a href='#fn:1' rel='footnote'>1</a></sup>. The site has always been protected by the impressive <a href="http://www.cloudflare.com/">CloudFlare</a> but that protection is even more critical now I've made that change, it does however present a particular challenge around dynamically assigned IP addresses that ISP's dish out on consumer broadband and fibre networks.</p>
 
 <center><img src="https://dl.dropbox.com/u/22370970/blogimages/cloudflare.png"></center>

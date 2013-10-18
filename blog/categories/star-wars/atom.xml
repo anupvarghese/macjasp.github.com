@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: star wars | carmo]]></title>
-  <link href="http://carmo.org.uk/blog/categories/star-wars/atom.xml" rel="self"/>
-  <link href="http://carmo.org.uk/"/>
-  <updated>2013-10-18T15:32:47+01:00</updated>
-  <id>http://carmo.org.uk/</id>
+  <link href="http://macjasp.github.com/blog/categories/star-wars/atom.xml" rel="self"/>
+  <link href="http://macjasp.github.com/"/>
+  <updated>2013-10-18T15:56:53+01:00</updated>
+  <id>http://macjasp.github.com/</id>
   <author>
-    <name><![CDATA[carmo.org.uk]]></name>
+    <name><![CDATA[macjasp]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Stormtrooper]]></title>
-    <link href="http://carmo.org.uk/lego-stormtrooper/"/>
+    <link href="http://macjasp.github.com/lego-stormtrooper/"/>
     <updated>2013-05-12T17:16:00+01:00</updated>
-    <id>http://carmo.org.uk/lego-stormtrooper</id>
+    <id>http://macjasp.github.com/lego-stormtrooper</id>
     <content type="html"><![CDATA[<center><img class="img" src="http://farm8.staticflickr.com/7288/8731519733_0ef370562e_b_d.jpg"></center>
 
 

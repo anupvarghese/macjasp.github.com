@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://carmo.org.uk/sitemap.xml 
+Sitemap: http://macjasp.github.com/sitemap.xml 

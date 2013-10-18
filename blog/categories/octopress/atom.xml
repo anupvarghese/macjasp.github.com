@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: octopress | carmo]]></title>
-  <link href="http://carmo.org.uk/blog/categories/octopress/atom.xml" rel="self"/>
-  <link href="http://carmo.org.uk/"/>
-  <updated>2013-10-18T15:32:47+01:00</updated>
-  <id>http://carmo.org.uk/</id>
+  <link href="http://macjasp.github.com/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://macjasp.github.com/"/>
+  <updated>2013-10-18T15:56:53+01:00</updated>
+  <id>http://macjasp.github.com/</id>
   <author>
-    <name><![CDATA[carmo.org.uk]]></name>
+    <name><![CDATA[macjasp]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Octopress on a Raspberry Pi]]></title>
-    <link href="http://carmo.org.uk/octopress-on-a-raspberry-pi/"/>
+    <link href="http://macjasp.github.com/octopress-on-a-raspberry-pi/"/>
     <updated>2013-07-28T14:30:00+01:00</updated>
-    <id>http://carmo.org.uk/octopress-on-a-raspberry-pi</id>
+    <id>http://macjasp.github.com/octopress-on-a-raspberry-pi</id>
     <content type="html"><![CDATA[<p>Sitting in the corner of my study is a Raspberry Pi, attached to my home network through a wireless connection provided by an Edimax EW-7811UN 150Mbps Wireless Nano USB Adapter<sup id='fnref:1'><a href='#fn:1' rel='footnote'>1</a></sup>.</p>
 
 <center><img src="https://dl.dropboxusercontent.com/u/22370970/blogimages/RpiandEdimax.JPG" title="My Raspberry Pi Model B with an Edimax WiFi USB Dongle attached which serves this blog." ></center>
@@ -75,9 +75,9 @@
   
   <entry>
     <title type="html"><![CDATA[CleanPress Octopress Theme]]></title>
-    <link href="http://carmo.org.uk/cleanpress-octopress-theme/"/>
+    <link href="http://macjasp.github.com/cleanpress-octopress-theme/"/>
     <updated>2013-05-17T15:58:00+01:00</updated>
-    <id>http://carmo.org.uk/cleanpress-octopress-theme</id>
+    <id>http://macjasp.github.com/cleanpress-octopress-theme</id>
     <content type="html"><![CDATA[<center> <img src="https://dl.dropboxusercontent.com/u/22370970/blogimages/blog_theme.jpg"></center>
 
 
