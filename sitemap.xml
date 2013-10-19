@@ -1,55 +1,55 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://macjasp.github.com/an-octopress-flickr-set-plugin/</loc>
+        <loc>http://macjasp.github.io/an-octopress-flickr-set-plugin/</loc>
         <lastmod>2013-07-14T15:17:57+01:00</lastmod>
     </url>
     <url>
-        <loc>http://macjasp.github.com/cloudflare-dynamicdns-updater-raspberry-pi/</loc>
+        <loc>http://macjasp.github.io/cloudflare-dynamicdns-updater-raspberry-pi/</loc>
         <lastmod>2013-07-14T15:17:59+01:00</lastmod>
     </url>
     <url>
-        <loc>http://macjasp.github.com/lego-stormtrooper/</loc>
+        <loc>http://macjasp.github.io/lego-stormtrooper/</loc>
         <lastmod>2013-08-30T17:42:27+01:00</lastmod>
     </url>
     <url>
-        <loc>http://macjasp.github.com/cleanpress-octopress-theme/</loc>
+        <loc>http://macjasp.github.io/cleanpress-octopress-theme/</loc>
         <lastmod>2013-07-14T15:18:02+01:00</lastmod>
     </url>
     <url>
-        <loc>http://macjasp.github.com/octopress-on-a-raspberry-pi/</loc>
+        <loc>http://macjasp.github.io/octopress-on-a-raspberry-pi/</loc>
         <lastmod>2013-08-03T12:12:23+01:00</lastmod>
     </url>
     <url>
-        <loc>http://macjasp.github.com/super-hot/</loc>
+        <loc>http://macjasp.github.io/super-hot/</loc>
         <lastmod>2013-10-18T15:25:15+01:00</lastmod>
     </url>
     <url>
-        <loc>http://macjasp.github.com/blog/archives/</loc>
+        <loc>http://macjasp.github.io/blog/archives/</loc>
         <lastmod>2013-10-18T15:25:15+01:00</lastmod>
     </url>
     <url>
-        <loc>http://macjasp.github.com/blog/</loc>
+        <loc>http://macjasp.github.io/blog/</loc>
         <lastmod>2013-10-18T15:25:15+01:00</lastmod>
     </url>
     <url>
-        <loc>http://macjasp.github.com/robots.txt</loc>
+        <loc>http://macjasp.github.io/robots.txt</loc>
         <lastmod>2013-01-29T12:55:07+00:00</lastmod>
     </url>
     <url>
-        <loc>http://macjasp.github.com/about/</loc>
+        <loc>http://macjasp.github.io/about/</loc>
         <lastmod>2013-10-18T15:31:29+01:00</lastmod>
     </url>
     <url>
-        <loc>http://macjasp.github.com/archives/</loc>
+        <loc>http://macjasp.github.io/archives/</loc>
         <lastmod>2013-10-18T15:25:15+01:00</lastmod>
     </url>
     <url>
-        <loc>http://macjasp.github.com/portfolio/</loc>
+        <loc>http://macjasp.github.io/portfolio/</loc>
         <lastmod>2013-10-18T15:25:15+01:00</lastmod>
     </url>
     <url>
-        <loc>http://macjasp.github.com/</loc>
+        <loc>http://macjasp.github.io/</loc>
         <lastmod>2013-10-18T15:25:15+01:00</lastmod>
     </url>
 </urlset>

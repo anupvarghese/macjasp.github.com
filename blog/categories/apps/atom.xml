@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: apps | carmo]]></title>
-  <link href="http://macjasp.github.com/blog/categories/apps/atom.xml" rel="self"/>
-  <link href="http://macjasp.github.com/"/>
-  <updated>2013-10-18T15:56:53+01:00</updated>
-  <id>http://macjasp.github.com/</id>
+  <title><![CDATA[Category: apps | macjasp]]></title>
+  <link href="http://macjasp.github.io/blog/categories/apps/atom.xml" rel="self"/>
+  <link href="http://macjasp.github.io/"/>
+  <updated>2013-10-19T12:01:50+01:00</updated>
+  <id>http://macjasp.github.io/</id>
   <author>
     <name><![CDATA[macjasp]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Super Hot]]></title>
-    <link href="http://macjasp.github.com/super-hot/"/>
+    <link href="http://macjasp.github.io/super-hot/"/>
     <updated>2013-08-28T17:48:00+01:00</updated>
-    <id>http://macjasp.github.com/super-hot</id>
+    <id>http://macjasp.github.io/super-hot</id>
     <content type="html"><![CDATA[<center><img class="img" src="http://farm4.staticflickr.com/3749/9616934444_850f468759_o_d.jpg"></center>
 
 

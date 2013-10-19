@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: lego | carmo]]></title>
-  <link href="http://macjasp.github.com/blog/categories/lego/atom.xml" rel="self"/>
-  <link href="http://macjasp.github.com/"/>
-  <updated>2013-10-18T15:56:53+01:00</updated>
-  <id>http://macjasp.github.com/</id>
+  <title><![CDATA[Category: lego | macjasp]]></title>
+  <link href="http://macjasp.github.io/blog/categories/lego/atom.xml" rel="self"/>
+  <link href="http://macjasp.github.io/"/>
+  <updated>2013-10-19T12:01:50+01:00</updated>
+  <id>http://macjasp.github.io/</id>
   <author>
     <name><![CDATA[macjasp]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Stormtrooper]]></title>
-    <link href="http://macjasp.github.com/lego-stormtrooper/"/>
+    <link href="http://macjasp.github.io/lego-stormtrooper/"/>
     <updated>2013-05-12T17:16:00+01:00</updated>
-    <id>http://macjasp.github.com/lego-stormtrooper</id>
+    <id>http://macjasp.github.io/lego-stormtrooper</id>
     <content type="html"><![CDATA[<center><img class="img" src="http://farm8.staticflickr.com/7288/8731519733_0ef370562e_b_d.jpg"></center>
 
 

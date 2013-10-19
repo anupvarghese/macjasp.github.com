@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[carmo]]></title>
-  <link href="http://macjasp.github.com/atom.xml" rel="self"/>
-  <link href="http://macjasp.github.com/"/>
-  <updated>2013-10-18T15:56:53+01:00</updated>
-  <id>http://macjasp.github.com/</id>
+  <title><![CDATA[macjasp]]></title>
+  <link href="http://macjasp.github.io/atom.xml" rel="self"/>
+  <link href="http://macjasp.github.io/"/>
+  <updated>2013-10-19T12:01:50+01:00</updated>
+  <id>http://macjasp.github.io/</id>
   <author>
     <name><![CDATA[macjasp]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Super Hot]]></title>
-    <link href="http://macjasp.github.com/super-hot/"/>
+    <link href="http://macjasp.github.io/super-hot/"/>
     <updated>2013-08-28T17:48:00+01:00</updated>
-    <id>http://macjasp.github.com/super-hot</id>
+    <id>http://macjasp.github.io/super-hot</id>
     <content type="html"><![CDATA[<center><img class="img" src="http://farm4.staticflickr.com/3749/9616934444_850f468759_o_d.jpg"></center>
 
 
@@ -27,9 +27,9 @@
   
   <entry>
     <title type="html"><![CDATA[Octopress on a Raspberry Pi]]></title>
-    <link href="http://macjasp.github.com/octopress-on-a-raspberry-pi/"/>
+    <link href="http://macjasp.github.io/octopress-on-a-raspberry-pi/"/>
     <updated>2013-07-28T14:30:00+01:00</updated>
-    <id>http://macjasp.github.com/octopress-on-a-raspberry-pi</id>
+    <id>http://macjasp.github.io/octopress-on-a-raspberry-pi</id>
     <content type="html"><![CDATA[<p>Sitting in the corner of my study is a Raspberry Pi, attached to my home network through a wireless connection provided by an Edimax EW-7811UN 150Mbps Wireless Nano USB Adapter<sup id='fnref:1'><a href='#fn:1' rel='footnote'>1</a></sup>.</p>
 
 <center><img src="https://dl.dropboxusercontent.com/u/22370970/blogimages/RpiandEdimax.JPG" title="My Raspberry Pi Model B with an Edimax WiFi USB Dongle attached which serves this blog." ></center>
@@ -87,9 +87,9 @@
   
   <entry>
     <title type="html"><![CDATA[CleanPress Octopress Theme]]></title>
-    <link href="http://macjasp.github.com/cleanpress-octopress-theme/"/>
+    <link href="http://macjasp.github.io/cleanpress-octopress-theme/"/>
     <updated>2013-05-17T15:58:00+01:00</updated>
-    <id>http://macjasp.github.com/cleanpress-octopress-theme</id>
+    <id>http://macjasp.github.io/cleanpress-octopress-theme</id>
     <content type="html"><![CDATA[<center> <img src="https://dl.dropboxusercontent.com/u/22370970/blogimages/blog_theme.jpg"></center>
 
 
@@ -105,9 +105,9 @@
   
   <entry>
     <title type="html"><![CDATA[Stormtrooper]]></title>
-    <link href="http://macjasp.github.com/lego-stormtrooper/"/>
+    <link href="http://macjasp.github.io/lego-stormtrooper/"/>
     <updated>2013-05-12T17:16:00+01:00</updated>
-    <id>http://macjasp.github.com/lego-stormtrooper</id>
+    <id>http://macjasp.github.io/lego-stormtrooper</id>
     <content type="html"><![CDATA[<center><img class="img" src="http://farm8.staticflickr.com/7288/8731519733_0ef370562e_b_d.jpg"></center>
 
 
@@ -117,9 +117,9 @@
   
   <entry>
     <title type="html"><![CDATA[Dynamic DNS Updater for CloudFlare]]></title>
-    <link href="http://macjasp.github.com/cloudflare-dynamicdns-updater-raspberry-pi/"/>
+    <link href="http://macjasp.github.io/cloudflare-dynamicdns-updater-raspberry-pi/"/>
     <updated>2013-03-24T19:42:00+00:00</updated>
-    <id>http://macjasp.github.com/cloudflare-dynamicdns-updater-raspberry-pi</id>
+    <id>http://macjasp.github.io/cloudflare-dynamicdns-updater-raspberry-pi</id>
     <content type="html"><![CDATA[<p>Over the weekend I decided to move hosting of this blog from Github Pages to the Raspberry Pi that resides in the bedroom of my home<sup id='fnref:1'><a href='#fn:1' rel='footnote'>1</a></sup>. The site has always been protected by the impressive <a href="http://www.cloudflare.com/">CloudFlare</a> but that protection is even more critical now I&#8217;ve made that change, it does however present a particular challenge around dynamically assigned IP addresses that ISP&#8217;s dish out on consumer broadband and fibre networks.</p>
 
 <center><img src="https://dl.dropbox.com/u/22370970/blogimages/cloudflare.png"></center>
@@ -156,9 +156,9 @@
   
   <entry>
     <title type="html"><![CDATA[An Octopress Flickr Set Plugin]]></title>
-    <link href="http://macjasp.github.com/an-octopress-flickr-set-plugin/"/>
+    <link href="http://macjasp.github.io/an-octopress-flickr-set-plugin/"/>
     <updated>2013-02-27T16:27:00+00:00</updated>
-    <id>http://macjasp.github.com/an-octopress-flickr-set-plugin</id>
+    <id>http://macjasp.github.io/an-octopress-flickr-set-plugin</id>
     <content type="html"><![CDATA[<p>While I was in the process of setting up and theming this site I envisaged writing a post that documented the migration of my Instagram photos to Flickr<sup id='fnref:1'><a href='#fn:1' rel='footnote'>1</a></sup>, the idea being that I would then embed the newly migrated Flickr photo set in said post on this Octopress powered blog.</p>
 
 <p>I wasn&#8217;t entirely sure whether I&#8217;d have to write my own plugin to do so or if I&#8217;d be lucky enough to find one already out there and I was thankfully saved the work after coming across a <a href="https://github.com/tsmango/jekyll_flickr_set_tag">great little Octopress plugin by tsmango</a> that did almost everything I was after, however I felt it could be improved upon so decided to fork the project and make some changes of my own.</p>

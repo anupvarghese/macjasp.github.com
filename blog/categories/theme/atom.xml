@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: theme | carmo]]></title>
-  <link href="http://macjasp.github.com/blog/categories/theme/atom.xml" rel="self"/>
-  <link href="http://macjasp.github.com/"/>
-  <updated>2013-10-18T15:56:53+01:00</updated>
-  <id>http://macjasp.github.com/</id>
+  <title><![CDATA[Category: theme | macjasp]]></title>
+  <link href="http://macjasp.github.io/blog/categories/theme/atom.xml" rel="self"/>
+  <link href="http://macjasp.github.io/"/>
+  <updated>2013-10-19T12:01:50+01:00</updated>
+  <id>http://macjasp.github.io/</id>
   <author>
     <name><![CDATA[macjasp]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[CleanPress Octopress Theme]]></title>
-    <link href="http://macjasp.github.com/cleanpress-octopress-theme/"/>
+    <link href="http://macjasp.github.io/cleanpress-octopress-theme/"/>
     <updated>2013-05-17T15:58:00+01:00</updated>
-    <id>http://macjasp.github.com/cleanpress-octopress-theme</id>
+    <id>http://macjasp.github.io/cleanpress-octopress-theme</id>
     <content type="html"><![CDATA[<center> <img src="https://dl.dropboxusercontent.com/u/22370970/blogimages/blog_theme.jpg"></center>
 
 

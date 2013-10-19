@@ -3294,3 +3294,4 @@
 2013/10/17 10:30:59 [error] 28514#0: *22 open() "/home/pi/www/phppath/php" failed (2: No such file or directory), client: 58.211.18.184, server: 192.168.1.12, request: "GET /phppath/php HTTP/1.0"
 2013/10/17 11:32:18 [error] 28514#0: *25 open() "/home/pi/www/zabbix/httpmon.php" failed (2: No such file or directory), client: 94.102.63.245, server: 192.168.1.12, request: "GET /zabbix/httpmon.php HTTP/1.0", host: "86.150.13.180"
 2013/10/18 03:42:31 [error] 28514#0: *29 "/home/pi/www/HNAP1/index.html" is not found (2: No such file or directory), client: 71.238.226.63, server: 192.168.1.12, request: "GET /HNAP1/ HTTP/1.1", host: "86.150.13.180", referrer: "http://86.150.13.180/"
+2013/10/19 00:30:40 [error] 2564#0: *2 open() "/home/pi/www/robots.txt" failed (2: No such file or directory), client: 198.20.69.74, server: 192.168.1.12, request: "GET /robots.txt HTTP/1.1", host: "86.150.13.180"

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: photography | carmo]]></title>
-  <link href="http://macjasp.github.com/blog/categories/photography/atom.xml" rel="self"/>
-  <link href="http://macjasp.github.com/"/>
-  <updated>2013-10-18T15:56:53+01:00</updated>
-  <id>http://macjasp.github.com/</id>
+  <title><![CDATA[Category: photography | macjasp]]></title>
+  <link href="http://macjasp.github.io/blog/categories/photography/atom.xml" rel="self"/>
+  <link href="http://macjasp.github.io/"/>
+  <updated>2013-10-19T12:01:50+01:00</updated>
+  <id>http://macjasp.github.io/</id>
   <author>
     <name><![CDATA[macjasp]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Super Hot]]></title>
-    <link href="http://macjasp.github.com/super-hot/"/>
+    <link href="http://macjasp.github.io/super-hot/"/>
     <updated>2013-08-28T17:48:00+01:00</updated>
-    <id>http://macjasp.github.com/super-hot</id>
+    <id>http://macjasp.github.io/super-hot</id>
     <content type="html"><![CDATA[<center><img class="img" src="http://farm4.staticflickr.com/3749/9616934444_850f468759_o_d.jpg"></center>
 
 
@@ -27,9 +27,9 @@
   
   <entry>
     <title type="html"><![CDATA[Stormtrooper]]></title>
-    <link href="http://macjasp.github.com/lego-stormtrooper/"/>
+    <link href="http://macjasp.github.io/lego-stormtrooper/"/>
     <updated>2013-05-12T17:16:00+01:00</updated>
-    <id>http://macjasp.github.com/lego-stormtrooper</id>
+    <id>http://macjasp.github.io/lego-stormtrooper</id>
     <content type="html"><![CDATA[<center><img class="img" src="http://farm8.staticflickr.com/7288/8731519733_0ef370562e_b_d.jpg"></center>
 
 
@@ -39,9 +39,9 @@
   
   <entry>
     <title type="html"><![CDATA[An Octopress Flickr Set Plugin]]></title>
-    <link href="http://macjasp.github.com/an-octopress-flickr-set-plugin/"/>
+    <link href="http://macjasp.github.io/an-octopress-flickr-set-plugin/"/>
     <updated>2013-02-27T16:27:00+00:00</updated>
-    <id>http://macjasp.github.com/an-octopress-flickr-set-plugin</id>
+    <id>http://macjasp.github.io/an-octopress-flickr-set-plugin</id>
     <content type="html"><![CDATA[<p>While I was in the process of setting up and theming this site I envisaged writing a post that documented the migration of my Instagram photos to Flickr<sup id='fnref:1'><a href='#fn:1' rel='footnote'>1</a></sup>, the idea being that I would then embed the newly migrated Flickr photo set in said post on this Octopress powered blog.</p>
 
 <p>I wasn't entirely sure whether I'd have to write my own plugin to do so or if I'd be lucky enough to find one already out there and I was thankfully saved the work after coming across a <a href="https://github.com/tsmango/jekyll_flickr_set_tag">great little Octopress plugin by tsmango</a> that did almost everything I was after, however I felt it could be improved upon so decided to fork the project and make some changes of my own.</p>
