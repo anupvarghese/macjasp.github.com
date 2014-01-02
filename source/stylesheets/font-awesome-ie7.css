@@ -1,5 +1,5 @@
 /*
-Syntax error: Invalid CSS after ".ie7icon": expected "{", was "(@inner) {"
+Syntax error: Invalid CSS after ".ie7icon {": expected "}", was "(@inner) {"
         on line 17 of /home/pi/octopress/sass/font-awesome-ie7.scss
 
 Backtrace:
@@ -7,7 +7,7 @@ Backtrace:
 /home/pi/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.1.20/lib/sass/scss/parser.rb:1010:in `expected'
 /home/pi/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.1.20/lib/sass/scss/parser.rb:956:in `expected'
 /home/pi/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.1.20/lib/sass/scss/parser.rb:951:in `tok!'
-/home/pi/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.1.20/lib/sass/scss/parser.rb:461:in `block'
+/home/pi/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.1.20/lib/sass/scss/parser.rb:463:in `block'
 /home/pi/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.1.20/lib/sass/scss/parser.rb:456:in `ruleset'
 /home/pi/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.1.20/lib/sass/scss/parser.rb:480:in `block_child'
 /home/pi/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.1.20/lib/sass/scss/parser.rb:473:in `block_contents'
@@ -43,4 +43,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \".ie7icon\": expected \"{\", was \"(@inner) {\"\A         on line 17 of /home/pi/octopress/sass/font-awesome-ie7.scss"; }
+  content: "Syntax error: Invalid CSS after \".ie7icon {\": expected \"}\", was \"(@inner) {\"\A         on line 17 of /home/pi/octopress/sass/font-awesome-ie7.scss"; }
