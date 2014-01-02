@@ -101,15 +101,15 @@ $(document).ready(
     <article class="post">
 	<h2 class="title">
 		
-		<a href="/super-hot/">
+		<a href="/a-sample-photo/">
 		
-			Super Hot</a>
+			A Sample Image Post</a>
 	</h2>
 	<div class="entry-content">
-		<center><img class="img" src="http://farm4.staticflickr.com/3749/9616934444_850f468759_o_d.jpg"></center>
+		<center><img class="img" src="http://farm4.staticflickr.com/3749/9616934444_2b0616cc59_b.jpg"></center>
 
 
-<p><a href="http://www.flickr.com/photos/-macjasp/9616934444/in/photostream/">Super Hot</a> • Exposure (1/2358) • Aperture     f/2.4 • Focal Length 4.1mm • ISO 50</p>
+<p><a href="http://www.flickr.com/photos/-macjasp/9616934444/">Super Hot</a> • Exposure (1/2358) • Aperture    f/2.4 • Focal Length 4.1mm • ISO 50</p>
 
 		
 		
@@ -133,7 +133,7 @@ $(document).ready(
 	<div class="tags">
 
 
-	<a class='category' href='/blog/categories/apps/'>apps</a>, <a class='category' href='/blog/categories/ios/'>ios</a>, <a class='category' href='/blog/categories/photography/'>photography</a>
+	<a class='category' href='/blog/categories/cleanpress/'>cleanpress</a>, <a class='category' href='/blog/categories/photography/'>photography</a>
 
 
 </div>
@@ -144,63 +144,12 @@ $(document).ready(
     <article class="post">
 	<h2 class="title">
 		
-		<a href="/octopress-on-a-raspberry-pi/">
+		<a href="/a-sample-post/">
 		
-			Octopress on a Raspberry Pi</a>
+			A Sample Post</a>
 	</h2>
 	<div class="entry-content">
-		<p>Sitting in the corner of my study is a Raspberry Pi, attached to my home network through a wireless connection provided by an Edimax EW-7811UN 150Mbps Wireless Nano USB Adapter<sup id='fnref:1'><a href='#fn:1' rel='footnote'>1</a></sup>.</p>
-
-<center><img src="https://dl.dropboxusercontent.com/u/22370970/blogimages/RpiandEdimax.JPG" title="My Raspberry Pi Model B with an Edimax WiFi USB Dongle attached which serves this blog." ></center>
-
-
-<p>I absolutely adore the little device and it&#8217;s versatility means I&#8217;ve been able to mess around and play to my hearts content over the last few months. Amongst the vast array of software, hacks and peripherals you can add to the device, to date I&#8217;ve been able to;</p>
-
-<ul>
-<li>Turn it in to an <a href="http://lifehacker.com/5978594/turn-a-raspberry-pi-into-an-airplay-receiver-for-streaming-music-in-your-living-room">AirPlay Receiver</a> using a Dynamode USB Sound Card.</li>
-<li>Create an <a href="http://willitscript.com/post/40357408648/using-your-pi-as-a-l2tp-vpn-server">L2TP VPN server</a> for my iOS devices</li>
-<li>Create a <a href="http://www.robertsetiadi.net/installing-transmission-in-raspberry-pi/">Transmission torrent server</a></li>
-<li>Setup a <a href="http://everbit.wordpress.com/2013/04/01/minidlna-on-the-raspberry-pi/">DLNA Server</a> for streaming movies to my PS3</li>
-<li><a href="https://mug.im/blog/2013/01/20/how-to-deploy-octopress-on-a-raspberrypi/">Installed Octopress</a> for this very blog.</li>
-</ul>
-
-
-<h3>Self Hosting</h3>
-
-<p>This week I&#8217;ve also moved hosting of this blog across to the Pi and away from Github Pages. I&#8217;m sure the Pi will cope quite admirably with the trivial amount of traffic this blog receives on a daily basis and with extra protection provided by <a href="http://www.cloudflare.com">CloudFlare</a> I don&#8217;t have any real concerns over performance, in fact it should run extremely well.</p>
-
-<p>I decided upon <a href="http://nginx.org">Nginx</a> as it&#8217;s web server, being fairly lightweight and <a href="http://www.erikminkel.com/2012/12/17/host-your-own-jekyll-based-blog-on-a-raspberry-pi/">relatively trivial to configure with Octopress</a> so it&#8217;s now a simple case of watching the Pi&#8217;s performance closely in the coming weeks.</p>
-
-<p>Dynamic DNS is the only piece of this self-hosting puzzle not satisfactorily resolved as yet<sup id='fnref:2'><a href='#fn:2' rel='footnote'>2</a></sup>. I&#8217;m currently using a <a href="http://gianpaj.com/post/34222308317/raspberry-pi-with-cloudflares-dynamic-dns-ddclient">modified version of ddclient</a> with a CloudFlare hack which seems to work in verbose/debug mode, although time will tell if that really is the case on an automated basis once my external IP changes in the coming days/weeks.</p>
-
-<h3>Workflow</h3>
-
-<p>Octopress and a Raspberry Pi fit perfectly together, I can be completely mobile yet still write content (and include photographs) and publish them to this blog with ease using a combination of the following software and workflow;</p>
-
-<ol>
-<li>Create a new post content using <a href="http://www.iawriter.com">iA Writer</a> before saving to Dropbox.<sup id='fnref:3'><a href='#fn:3' rel='footnote'>3</a></sup></li>
-<li>SSH to the Pi using a brilliant bit of software called <a href="http://panic.com/prompt/">Prompt</a>.</li>
-<li>Download the newly created post to the RPi&#8217;s Octopress _posts folder using <a href="http://www.andreafabrizi.it/?dropbox_uploader">Dropbox Uploader</a>.</li>
-<li>Finally, using Prompt again, perform a &#8216;rake generate&#8217; to update the content on the Pi&#8217;s NGinx web server and present it to the world.</li>
-</ol>
-
-
-<p>It&#8217;s also worth mentioning another great iOS App called <a href="http://www.textasticapp.com">Textastic</a> which enables me to also modify my Octopress source code and theme whilst mobile too.</p>
-
-<p>This combination of Apps and mobile devices is actually making my blogging a pleasure.</p>
-
-<div class="footnotes">
-    <ol>
-        <li id='fn:1'><p>I highly recommend this USB Adaptor if you want to go wireless with your Pi.
-<a href='#fnref:1' rev='footnote'>↩</a></p>
-</li><li id='fn:2'><p>Why don&#8217;t British Telecom give the option of a static IP with their Infinity product?
-<a href='#fnref:2' rev='footnote'>↩</a></p>
-</li><li id='fn:3'><p>At this point if I was to include a photo in my post I&#8217;d save this to the Public folder on my Dropbox account.
-<a href='#fnref:3' rev='footnote'>↩</a></p>
-</li>
-    </ol>
-</div>
-
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
 
 		
 		
@@ -224,237 +173,7 @@ $(document).ready(
 	<div class="tags">
 
 
-	<a class='category' href='/blog/categories/octopress/'>octopress</a>, <a class='category' href='/blog/categories/raspberry-pi/'>raspberry pi</a>
-
-
-</div>
-	
-</div></article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/cleanpress-octopress-theme/">
-		
-			CleanPress Octopress Theme</a>
-	</h2>
-	<div class="entry-content">
-		<center> <img src="https://dl.dropboxusercontent.com/u/22370970/blogimages/blog_theme.jpg"></center>
-
-
-<p>I&#8217;m a huge fan of clean, white, elegant and responsive websites, so when I originally set up this blog I took the decision to create my own custom design based on this specific criteria. Using the <a href="http://zespia.tw/Octopress-Theme-Slash/">Slash theme</a> as a base I then took inspiration from <a href="http://blog.gesteves.com/">Guillermo Esteves beautiful blog</a> whilst attempting to retain an element of originality in what I was creating.</p>
-
-<p>The theme is now at a point where I&#8217;m happy to share it publicly, so I&#8217;ve given it a name of &#8216;CleanPress&#8217; and made it available via my <a href="https://github.com/macjasp/cleanpress">GitHub repository</a>.</p>
-
-<p>There&#8217;s still work to do in cleaning up the remnants of the Slash Theme and I&#8217;m by no means an expert on the Octopress platform so there&#8217;s no doubt much mess but I&#8217;m hoping someone can take it on and improve it further.</p>
-
-<p>In the meantime, I&#8217;ll happily take any comments or questions on the current version and if you do use it on your own site or modify it further I&#8217;d love to know.</p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-05-17T15:58:00+01:00" pubdate data-updated="true">May 17<span>th</span>, 2013</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/development/'>development</a>, <a class='category' href='/blog/categories/octopress/'>octopress</a>, <a class='category' href='/blog/categories/theme/'>theme</a>
-
-
-</div>
-	
-</div></article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/lego-stormtrooper/">
-		
-			Stormtrooper</a>
-	</h2>
-	<div class="entry-content">
-		<center><img class="img" src="http://farm8.staticflickr.com/7288/8731519733_0ef370562e_b_d.jpg"></center>
-
-
-<p><a href="http://www.flickr.com/photos/-macjasp/8731519733/">Stormtrooper</a> • Exposure (1/10) • Aperture  f/5.6 • Focal Length   42mm • ISO 800</p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-05-12T17:16:00+01:00" pubdate data-updated="true">May 12<span>th</span>, 2013</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/lego/'>lego</a>, <a class='category' href='/blog/categories/photography/'>photography</a>, <a class='category' href='/blog/categories/star-wars/'>star wars</a>
-
-
-</div>
-	
-</div></article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/cloudflare-dynamicdns-updater-raspberry-pi/">
-		
-			Dynamic DNS Updater for CloudFlare</a>
-	</h2>
-	<div class="entry-content">
-		<p>Over the weekend I decided to move hosting of this blog from Github Pages to the Raspberry Pi that resides in the bedroom of my home<sup id='fnref:1'><a href='#fn:1' rel='footnote'>1</a></sup>. The site has always been protected by the impressive <a href="http://www.cloudflare.com/">CloudFlare</a> but that protection is even more critical now I&#8217;ve made that change, it does however present a particular challenge around dynamically assigned IP addresses that ISP&#8217;s dish out on consumer broadband and fibre networks.</p>
-
-<center><img src="https://dl.dropbox.com/u/22370970/blogimages/cloudflare.png"></center>
-
-
-<p>CloudFlare needs to be kept informed of the currently assigned IP address that the Pi is sitting behind and although they do offer an API and <a href="http://robertianhawdon.me.uk/2012/07/17/fixing-ddclient-to-work-with-cloudflare/">a dyndns client</a>, it&#8217;s a little troublesome to get working so I decided the best approach would be a simple bash script.</p>
-
-<div><script src='https://gist.github.com/5252855.js'></script>
-<noscript><pre><code></code></pre></noscript></div>
-
-
-<p>The script runs perfectly on a Raspberry Pi and all it needs is a simple alteration to include your own domain, CloudFlare Username and API key, then add it to a cron job and it will keep your CloudFlare DNS up to date with the currently assigned dynamic IP at an interval of your choosing<sup id='fnref:2'><a href='#fn:2' rel='footnote'>2</a></sup>.</p>
-
-<p>Any support, issues, comments or feedback are always welcome by getting in touch on <a href="http://twitter.com/macjasp">Twitter</a>.</p>
-
-<br>
-
-
-<br>
-
-
-<div class="footnotes">
-    <ol>
-        <li id='fn:1'><p><del>The static pages of this Octopress blog are being served by <a href="http://nginx.org/en/">Nginx</a> and performance is admirable on the Raspberry Pi</del> I&#8217;ve since had to move hosting back to Github Pages following some weird sleeping issues the Pi was experiencing.
-<a href='#fnref:1' rev='footnote'>↩</a></p>
-</li><li id='fn:2'><p>I currently have mine set to update CloudFlare every 55 minutes.
-<a href='#fnref:2' rev='footnote'>↩</a></p>
-</li>
-    </ol>
-</div>
-
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-03-24T19:42:00+00:00" pubdate data-updated="true">Mar 24<span>th</span>, 2013</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/cloudflare/'>cloudflare</a>, <a class='category' href='/blog/categories/development/'>development</a>, <a class='category' href='/blog/categories/dyndns/'>dyndns</a>
-
-
-</div>
-	
-</div></article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/an-octopress-flickr-set-plugin/">
-		
-			An Octopress Flickr Set Plugin</a>
-	</h2>
-	<div class="entry-content">
-		<p>While I was in the process of setting up and theming this site I envisaged writing a post that documented the migration of my Instagram photos to Flickr<sup id='fnref:1'><a href='#fn:1' rel='footnote'>1</a></sup>, the idea being that I would then embed the newly migrated Flickr photo set in said post on this Octopress powered blog.</p>
-
-<p>I wasn&#8217;t entirely sure whether I&#8217;d have to write my own plugin to do so or if I&#8217;d be lucky enough to find one already out there and I was thankfully saved the work after coming across a <a href="https://github.com/tsmango/jekyll_flickr_set_tag">great little Octopress plugin by tsmango</a> that did almost everything I was after, however I felt it could be improved upon so decided to fork the project and make some changes of my own.</p>
-
-<ul>
-<li><p>Firstly it returned all photos in a set, the Flickr API can return up to 500 photos at a time and that wouldn&#8217;t display too well in a blog post, so I&#8217;ve added a new parameter which allows you to configure the amount of photos that are returned by changing the newly created &#8216;per_page:&#8217; setting in the _config.yml to a number of your choice.</p></li>
-<li><p>Secondly, clicking a photo thumbnail would take you directly to the source image while I personally thought it more sensible if it took you to that individual photos full Flickr page instead, another parameter is required for this called &#8216;user:&#8217; in which you enter your own flickr userID.</p></li>
-</ul>
-
-
-<p>Below is the result of those changes and the amended plugin is available to install <a href="https://github.com/macjasp/jekyll_flickr_set_tag">from my Github repository</a>.</p>
-
-<center><p class="gallery"><a href="http://www.flickr.com/photos/-macjasp/6792807178/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7047/6792807178_8a27af2635_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6792808304/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7209/6792808304_9d03826687_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6406125177/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7148/6406125177_d44ce6a395_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6938918399/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7188/6938918399_421266f909_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6823328091/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7148/6823328091_e20e644fb4_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7257837422/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7228/7257837422_4784fe499f_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6406126561/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7142/6406126561_72a45959cc_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/8646750870/in/photostream" target ="_blank">  <img src="http://farm9.staticflickr.com/8387/8646750870_f55dd75c75_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6823340369/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7169/6823340369_3567dd39c1_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6406127393/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7035/6406127393_d62a2d96a3_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/5188128406/in/photostream" target ="_blank">  <img src="http://farm5.staticflickr.com/4084/5188128406_96c048e35e_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/11633131594/in/photostream" target ="_blank">  <img src="http://farm4.staticflickr.com/3694/11633131594_d3c119362e_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6058828631/in/photostream" target ="_blank">  <img src="http://farm7.staticflickr.com/6073/6058828631_7025fd7177_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6823331845/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7011/6823331845_8e9fede2e9_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7412633628/in/photostream" target ="_blank">  <img src="http://farm6.staticflickr.com/5342/7412633628_b2cfb403b5_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7406638072/in/photostream" target ="_blank">  <img src="http://farm9.staticflickr.com/8026/7406638072_de04ef8431_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/5661270209/in/photostream" target ="_blank">  <img src="http://farm6.staticflickr.com/5222/5661270209_c1b01c80fb_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/5327571614/in/photostream" target ="_blank">  <img src="http://farm6.staticflickr.com/5202/5327571614_ebc98dde16_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7409103142/in/photostream" target ="_blank">  <img src="http://farm6.staticflickr.com/5159/7409103142_25c8c4d67b_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7409111074/in/photostream" target ="_blank">  <img src="http://farm9.staticflickr.com/8007/7409111074_b6d5f5c57c_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7404057664/in/photostream" target ="_blank">  <img src="http://farm6.staticflickr.com/5280/7404057664_c363eba51a_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7404054108/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7213/7404054108_f8f86d9863_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7404052072/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7099/7404052072_8e6c27045e_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/6358623881/in/photostream" target ="_blank">  <img src="http://farm7.staticflickr.com/6045/6358623881_94f7ff693a_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/5710867643/in/photostream" target ="_blank">  <img src="http://farm4.staticflickr.com/3457/5710867643_6f9a988bcd_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7146347189/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7040/7146347189_b4f075c7f8_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7146345069/in/photostream" target ="_blank">  <img src="http://farm8.staticflickr.com/7277/7146345069_a35c61c577_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/7670716712/in/photostream" target ="_blank">  <img src="http://farm9.staticflickr.com/8421/7670716712_d9dfb8126d_s.jpg" rel=""/></a><a href="http://www.flickr.com/photos/-macjasp/8694023466/in/photostream" target ="_blank">  <img src="http://farm9.staticflickr.com/8126/8694023466_d5fa5fcec8_s.jpg" rel=""/></a></p></center>
-
-
-<br>
-
-
-<br>
-
-
-<div class="footnotes">
-    <ol>
-        <li id='fn:1'><p>I scrapped this idea for a post but check out <a href="http://flickstagram.org/">Flickstagram</a> if you&#8217;re planning on doing something like this yourself.
-<a href='#fnref:1' rev='footnote'>↩</a></p>
-</li>
-    </ol>
-</div>
-
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-02-27T16:27:00+00:00" pubdate data-updated="true">Feb 27<span>th</span>, 2013</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/development/'>development</a>, <a class='category' href='/blog/categories/photography/'>photography</a>
+	<a class='category' href='/blog/categories/cleanpress/'>cleanpress</a>, <a class='category' href='/blog/categories/text/'>text</a>
 
 
 </div>

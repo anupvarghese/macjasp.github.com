@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[cleanpress]]></title>
-  <link href="http://macjasp.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: cleanpress | cleanpress]]></title>
+  <link href="http://macjasp.github.io/blog/categories/cleanpress/atom.xml" rel="self"/>
   <link href="http://macjasp.github.io/"/>
   <updated>2014-01-02T14:42:46+00:00</updated>
   <id>http://macjasp.github.io/</id>

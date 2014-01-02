@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[cleanpress]]></title>
-  <link href="http://macjasp.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: text | cleanpress]]></title>
+  <link href="http://macjasp.github.io/blog/categories/text/atom.xml" rel="self"/>
   <link href="http://macjasp.github.io/"/>
   <updated>2014-01-02T14:42:46+00:00</updated>
   <id>http://macjasp.github.io/</id>
@@ -12,18 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[A Sample Image Post]]></title>
-    <link href="http://macjasp.github.io/a-sample-photo/"/>
-    <updated>2013-08-28T17:48:00+01:00</updated>
-    <id>http://macjasp.github.io/a-sample-photo</id>
-    <content type="html"><![CDATA[<center><img class="img" src="http://farm4.staticflickr.com/3749/9616934444_2b0616cc59_b.jpg"></center>
-
-
-<p><a href="http://www.flickr.com/photos/-macjasp/9616934444/">Super Hot</a> • Exposure (1/2358) • Aperture    f/2.4 • Focal Length 4.1mm • ISO 50</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[A Sample Post]]></title>

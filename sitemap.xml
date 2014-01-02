@@ -1,36 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://macjasp.github.io/an-octopress-flickr-set-plugin/</loc>
-        <lastmod>2013-07-14T15:17:57+01:00</lastmod>
+        <loc>http://macjasp.github.io/a-sample-post/</loc>
+        <lastmod>2014-01-02T14:36:44+00:00</lastmod>
     </url>
     <url>
-        <loc>http://macjasp.github.io/cloudflare-dynamicdns-updater-raspberry-pi/</loc>
-        <lastmod>2013-07-14T15:17:59+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://macjasp.github.io/lego-stormtrooper/</loc>
-        <lastmod>2013-08-30T17:42:27+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://macjasp.github.io/cleanpress-octopress-theme/</loc>
-        <lastmod>2013-07-14T15:18:02+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://macjasp.github.io/octopress-on-a-raspberry-pi/</loc>
-        <lastmod>2013-08-03T12:12:23+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://macjasp.github.io/super-hot/</loc>
-        <lastmod>2013-10-18T15:25:15+01:00</lastmod>
+        <loc>http://macjasp.github.io/a-sample-photo/</loc>
+        <lastmod>2014-01-02T14:39:44+00:00</lastmod>
     </url>
     <url>
         <loc>http://macjasp.github.io/blog/archives/</loc>
-        <lastmod>2013-10-18T15:25:15+01:00</lastmod>
+        <lastmod>2014-01-02T14:39:44+00:00</lastmod>
     </url>
     <url>
         <loc>http://macjasp.github.io/blog/</loc>
-        <lastmod>2013-10-18T15:25:15+01:00</lastmod>
+        <lastmod>2014-01-02T14:39:44+00:00</lastmod>
     </url>
     <url>
         <loc>http://macjasp.github.io/robots.txt</loc>
@@ -38,18 +22,18 @@
     </url>
     <url>
         <loc>http://macjasp.github.io/about/</loc>
-        <lastmod>2014-01-02T11:29:50+00:00</lastmod>
+        <lastmod>2014-01-02T14:41:00+00:00</lastmod>
     </url>
     <url>
         <loc>http://macjasp.github.io/archives/</loc>
-        <lastmod>2013-10-18T15:25:15+01:00</lastmod>
+        <lastmod>2014-01-02T14:39:44+00:00</lastmod>
     </url>
     <url>
         <loc>http://macjasp.github.io/portfolio/</loc>
-        <lastmod>2013-10-18T15:25:15+01:00</lastmod>
+        <lastmod>2014-01-02T14:41:57+00:00</lastmod>
     </url>
     <url>
         <loc>http://macjasp.github.io/</loc>
-        <lastmod>2013-10-18T15:25:15+01:00</lastmod>
+        <lastmod>2014-01-02T14:39:44+00:00</lastmod>
     </url>
 </urlset>
